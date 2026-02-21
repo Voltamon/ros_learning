@@ -1,0 +1,3 @@
+[console_scripts]
+num_count = topic_activity.number_counter:main
+num_pub = topic_activity.number_publisher:main
