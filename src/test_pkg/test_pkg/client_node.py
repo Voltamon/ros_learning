@@ -12,8 +12,8 @@ class ClientNode(Node):
         self.client_ = self.create_client(AddTwoInts, 'add_two_ints')
         self.client_.wait_for_service()
 
-    def add_ints(self, a, b):
-        
+    def add_int(self, a, b):
+
         self.request = AddTwoInts.Request()
         self.request.a = a
         self.request.b = b
