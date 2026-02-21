@@ -1,11 +1,15 @@
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/sub_node.py
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/topic_node.py
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/test_node.py
+/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/server_node.py
+/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/client_node.py
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__init__.py
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/template_node.py
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/sub_node.cpython-312.pyc
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/topic_node.cpython-312.pyc
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/test_node.cpython-312.pyc
+/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/server_node.cpython-312.pyc
+/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/client_node.cpython-312.pyc
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/__init__.cpython-312.pyc
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/template_node.cpython-312.pyc
 /home/voltamon48/ros_test/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
@@ -17,7 +21,9 @@
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/entry_points.txt
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/top_level.txt
 /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/requires.txt
+/home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/client_node
+/home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/srv_node
 /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/sub_node
-/home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/template_node
+/home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/temp_node
 /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/test_node
 /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg/topic_node

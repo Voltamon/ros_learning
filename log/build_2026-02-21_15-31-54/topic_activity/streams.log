@@ -1,0 +1,22 @@
+[1.112s] Invoking command in '/home/voltamon48/ros_test/src/topic_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data
+[1.418s] running egg_info
+[1.440s] writing ../../build/topic_activity/topic_activity.egg-info/PKG-INFO
+[1.440s] writing dependency_links to ../../build/topic_activity/topic_activity.egg-info/dependency_links.txt
+[1.441s] writing entry points to ../../build/topic_activity/topic_activity.egg-info/entry_points.txt
+[1.441s] writing requirements to ../../build/topic_activity/topic_activity.egg-info/requires.txt
+[1.441s] writing top-level names to ../../build/topic_activity/topic_activity.egg-info/top_level.txt
+[1.486s] reading manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+[1.487s] writing manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+[1.487s] running build
+[1.488s] running build_py
+[1.488s] running install
+[1.496s] running install_lib
+[1.521s] running install_data
+[1.522s] running install_egg_info
+[1.545s] removing '/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity-0.0.0-py3.12.egg-info' (and everything under it)
+[1.546s] Copying ../../build/topic_activity/topic_activity.egg-info to /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity-0.0.0-py3.12.egg-info
+[1.547s] running install_scripts
+[1.705s] Installing num_count script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+[1.705s] Installing num_pub script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+[1.706s] writing list of installed files to '/home/voltamon48/ros_test/build/topic_activity/install.log'
+[1.756s] Invoked command in '/home/voltamon48/ros_test/src/topic_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data

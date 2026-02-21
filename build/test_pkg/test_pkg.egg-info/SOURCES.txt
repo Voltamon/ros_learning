@@ -14,6 +14,8 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 test_pkg/__init__.py
+test_pkg/client_node.py
+test_pkg/server_node.py
 test_pkg/sub_node.py
 test_pkg/template_node.py
 test_pkg/test_node.py

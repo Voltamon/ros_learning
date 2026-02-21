@@ -25,9 +25,11 @@ setup(
     entry_points={
         'console_scripts': [
             "test_node = test_pkg.test_node:main",
-            "template_node = test_pkg.template_node:main",
+            "temp_node = test_pkg.template_node:main",
             "topic_node = test_pkg.topic_node:main",
-            "sub_node = test_pkg.sub_node:main"
+            "sub_node = test_pkg.sub_node:main",
+            "srv_node = test_pkg.server_node:main",
+            "client_node = test_pkg.client_node:main"
         ],
     },
 )

@@ -1,9 +1,10 @@
 #!usr/bin/env python3
 import rclpy
+
 from rclpy.node import Node
 from rclpy.logging import LoggingSeverity
 
-from example_interfaces.msg import String
+from std_msgs.msg import String
 
 class TopicNode(Node):
     def __init__(self):
