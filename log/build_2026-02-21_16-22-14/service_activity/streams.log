@@ -1,0 +1,26 @@
+[1.533s] Invoking command in '/home/voltamon48/ros_test/src/service_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_activity build --build-base /home/voltamon48/ros_test/build/service_activity/build install --record /home/voltamon48/ros_test/build/service_activity/install.log --single-version-externally-managed install_data
+[1.917s] running egg_info
+[1.945s] writing ../../build/service_activity/service_activity.egg-info/PKG-INFO
+[1.945s] writing dependency_links to ../../build/service_activity/service_activity.egg-info/dependency_links.txt
+[1.946s] writing entry points to ../../build/service_activity/service_activity.egg-info/entry_points.txt
+[1.946s] writing requirements to ../../build/service_activity/service_activity.egg-info/requires.txt
+[1.946s] writing top-level names to ../../build/service_activity/service_activity.egg-info/top_level.txt
+[2.003s] reading manifest file '../../build/service_activity/service_activity.egg-info/SOURCES.txt'
+[2.004s] writing manifest file '../../build/service_activity/service_activity.egg-info/SOURCES.txt'
+[2.005s] running build
+[2.005s] running build_py
+[2.005s] copying service_activity/number_service.py -> /home/voltamon48/ros_test/build/service_activity/build/lib/service_activity
+[2.006s] running install
+[2.016s] running install_lib
+[2.047s] copying /home/voltamon48/ros_test/build/service_activity/build/lib/service_activity/number_service.py -> /home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service_activity
+[2.048s] byte-compiling /home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service_activity/number_service.py to number_service.cpython-312.pyc
+[2.049s] running install_data
+[2.050s] running install_egg_info
+[2.081s] removing '/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service_activity-0.0.0-py3.12.egg-info' (and everything under it)
+[2.082s] Copying ../../build/service_activity/service_activity.egg-info to /home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service_activity-0.0.0-py3.12.egg-info
+[2.083s] running install_scripts
+[2.271s] Installing num_count script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[2.271s] Installing num_pub script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[2.271s] Installing num_srv script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[2.271s] writing list of installed files to '/home/voltamon48/ros_test/build/service_activity/install.log'
+[2.326s] Invoked command in '/home/voltamon48/ros_test/src/service_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_activity build --build-base /home/voltamon48/ros_test/build/service_activity/build install --record /home/voltamon48/ros_test/build/service_activity/install.log --single-version-externally-managed install_data

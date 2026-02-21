@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/topic_activity/topic_activity.egg-info/PKG-INFO
+writing dependency_links to ../../build/topic_activity/topic_activity.egg-info/dependency_links.txt
+writing entry points to ../../build/topic_activity/topic_activity.egg-info/entry_points.txt
+writing requirements to ../../build/topic_activity/topic_activity.egg-info/requires.txt
+writing top-level names to ../../build/topic_activity/topic_activity.egg-info/top_level.txt
+reading manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+writing manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+running build
+running build_py
+copying topic_activity/number_counter.py -> /home/voltamon48/ros_test/build/topic_activity/build/lib/topic_activity
+running install
+running install_lib
+copying /home/voltamon48/ros_test/build/topic_activity/build/lib/topic_activity/number_counter.py -> /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity
+byte-compiling /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity/number_counter.py to number_counter.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/topic_activity/topic_activity.egg-info to /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity-0.0.0-py3.12.egg-info
+running install_scripts
+Installing num_count script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+Installing num_pub script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+writing list of installed files to '/home/voltamon48/ros_test/build/topic_activity/install.log'

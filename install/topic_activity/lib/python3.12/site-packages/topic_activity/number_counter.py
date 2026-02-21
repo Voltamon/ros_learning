@@ -12,7 +12,7 @@ class NumberCounter(Node):
         super().__init__("number_counter")
 
         self.publisher_ = self.create_publisher(Int64, "number", 10)
-        self.subscription_ = self.create_subscription(Int64, "number", self.counter_callback, 10)
+        self.create_subscription(Int64, "number", self.counter_callback, 10)
         
         self.create_timer(1.0, self.timer_callback)
 

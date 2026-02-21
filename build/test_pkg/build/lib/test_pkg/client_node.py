@@ -11,20 +11,24 @@ class ClientNode(Node):
         super().__init__('client_node')
         self.client_ = self.create_client(AddTwoInts, 'add_two_ints')
         self.client_.wait_for_service()
-        self.request = AddTwoInts.Request()
 
-    def send_request(self, a, b):
+    def add_int(self, a, b):
+        self.request = AddTwoInts.Request()
         self.request.a = a
         self.request.b = b
+
         self.future = self.client_.call_async(self.request)
-        rclpy.spin_until_future_complete(self, self.future)
-        return self.future.result()
+        self.future.add_done_callback(self.response_callback)
+
+    def response_callback(self, future):
+        self.get_logger().info(f'Response: {future.result().sum}')
+    
 
 def main(args=None):
     rclpy.init(args=args)
     node = ClientNode()
-    response = node.send_request(2, 3)
-    node.get_logger().info(f'Response: {response.sum}')
+    node.add_int(2, 3)
+    rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 

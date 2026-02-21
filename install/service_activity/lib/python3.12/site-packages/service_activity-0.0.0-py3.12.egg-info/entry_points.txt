@@ -1,0 +1,4 @@
+[console_scripts]
+num_count = service_activity.number_counter:main
+num_pub = service_activity.number_publisher:main
+num_srv = service_activity.number_service:main
