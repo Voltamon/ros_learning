@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing json_interfce_bridge.egg-info/PKG-INFO
+writing dependency_links to json_interfce_bridge.egg-info/dependency_links.txt
+writing entry points to json_interfce_bridge.egg-info/entry_points.txt
+writing requirements to json_interfce_bridge.egg-info/requires.txt
+writing top-level names to json_interfce_bridge.egg-info/top_level.txt
+reading manifest file 'json_interfce_bridge.egg-info/SOURCES.txt'
+writing manifest file 'json_interfce_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json-interfce-bridge.egg-link (link to .)
+Installing pub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+Installing sub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+
+Installed /home/voltamon48/ros_test/build/json_interfce_bridge
+running symlink_data
+symbolically linking /home/voltamon48/ros_test/build/json_interfce_bridge/resource/json_interfce_bridge -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/voltamon48/ros_test/build/json_interfce_bridge/package.xml -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge

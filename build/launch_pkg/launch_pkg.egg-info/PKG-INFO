@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: launch-pkg
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: voltamon48
+Maintainer-email: deswarnavo@gmail.com
+License: apache-2.0
+Provides-Extra: test

@@ -1,0 +1,23 @@
+[2.506s] Invoking command in '/home/voltamon48/ros_test/build/service_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/service_activity/build --no-deps symlink_data --force
+[3.092s] running develop
+[3.471s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[3.471s]   self.local_index = Environment(self.shadow_path + sys.path)
+[3.565s] running egg_info
+[3.615s] writing service_activity.egg-info/PKG-INFO
+[3.615s] writing dependency_links to service_activity.egg-info/dependency_links.txt
+[3.616s] writing entry points to service_activity.egg-info/entry_points.txt
+[3.616s] writing requirements to service_activity.egg-info/requires.txt
+[3.616s] writing top-level names to service_activity.egg-info/top_level.txt
+[3.723s] reading manifest file 'service_activity.egg-info/SOURCES.txt'
+[3.724s] writing manifest file 'service_activity.egg-info/SOURCES.txt'
+[3.784s] running build_ext
+[3.785s] Creating /home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service-activity.egg-link (link to .)
+[3.785s] Installing num_count script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[3.787s] Installing num_pub script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[3.792s] Installing num_srv script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+[3.793s] 
+[3.793s] Installed /home/voltamon48/ros_test/build/service_activity
+[3.793s] running symlink_data
+[3.793s] symbolically linking /home/voltamon48/ros_test/build/service_activity/resource/service_activity -> /home/voltamon48/ros_test/install/service_activity/share/ament_index/resource_index/packages
+[3.794s] symbolically linking /home/voltamon48/ros_test/build/service_activity/package.xml -> /home/voltamon48/ros_test/install/service_activity/share/service_activity
+[3.869s] Invoked command in '/home/voltamon48/ros_test/build/service_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/service_activity/build --no-deps symlink_data --force

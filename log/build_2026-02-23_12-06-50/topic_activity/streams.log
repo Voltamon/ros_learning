@@ -1,0 +1,36 @@
+[2.880s] Invoking command in '/home/voltamon48/ros_test/build/topic_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/topic_activity/build
+[3.611s] running develop
+[4.042s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.043s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.128s] Removing /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic-activity.egg-link (link to .)
+[4.211s] Invoked command in '/home/voltamon48/ros_test/build/topic_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/topic_activity/build
+[4.213s] Invoking command in '/home/voltamon48/ros_test/src/topic_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data --force
+[4.925s] running egg_info
+[4.957s] writing ../../build/topic_activity/topic_activity.egg-info/PKG-INFO
+[4.958s] writing dependency_links to ../../build/topic_activity/topic_activity.egg-info/dependency_links.txt
+[4.958s] writing entry points to ../../build/topic_activity/topic_activity.egg-info/entry_points.txt
+[4.958s] writing requirements to ../../build/topic_activity/topic_activity.egg-info/requires.txt
+[4.959s] writing top-level names to ../../build/topic_activity/topic_activity.egg-info/top_level.txt
+[5.023s] reading manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+[5.025s] writing manifest file '../../build/topic_activity/topic_activity.egg-info/SOURCES.txt'
+[5.027s] running build
+[5.027s] running build_py
+[5.027s] running install
+[5.038s] running install_lib
+[5.070s] creating /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity
+[5.071s] copying /home/voltamon48/ros_test/build/topic_activity/build/lib/topic_activity/number_counter.py -> /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity
+[5.071s] copying /home/voltamon48/ros_test/build/topic_activity/build/lib/topic_activity/number_publisher.py -> /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity
+[5.071s] copying /home/voltamon48/ros_test/build/topic_activity/build/lib/topic_activity/__init__.py -> /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity
+[5.072s] byte-compiling /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity/number_counter.py to number_counter.cpython-312.pyc
+[5.074s] byte-compiling /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity/number_publisher.py to number_publisher.cpython-312.pyc
+[5.075s] byte-compiling /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity/__init__.py to __init__.cpython-312.pyc
+[5.075s] running install_data
+[5.076s] copying resource/topic_activity -> /home/voltamon48/ros_test/install/topic_activity/share/ament_index/resource_index/packages
+[5.076s] copying package.xml -> /home/voltamon48/ros_test/install/topic_activity/share/topic_activity
+[5.076s] running install_egg_info
+[5.112s] Copying ../../build/topic_activity/topic_activity.egg-info to /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic_activity-0.0.0-py3.12.egg-info
+[5.113s] running install_scripts
+[5.278s] Installing num_count script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+[5.278s] Installing num_pub script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+[5.278s] writing list of installed files to '/home/voltamon48/ros_test/build/topic_activity/install.log'
+[5.316s] Invoked command in '/home/voltamon48/ros_test/src/topic_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing service_activity.egg-info/PKG-INFO
+writing dependency_links to service_activity.egg-info/dependency_links.txt
+writing entry points to service_activity.egg-info/entry_points.txt
+writing requirements to service_activity.egg-info/requires.txt
+writing top-level names to service_activity.egg-info/top_level.txt
+reading manifest file 'service_activity.egg-info/SOURCES.txt'
+writing manifest file 'service_activity.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages/service-activity.egg-link (link to .)
+Installing num_count script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+Installing num_pub script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+Installing num_srv script to /home/voltamon48/ros_test/install/service_activity/lib/service_activity
+
+Installed /home/voltamon48/ros_test/build/service_activity
+running symlink_data
+symbolically linking /home/voltamon48/ros_test/build/service_activity/resource/service_activity -> /home/voltamon48/ros_test/install/service_activity/share/ament_index/resource_index/packages
+symbolically linking /home/voltamon48/ros_test/build/service_activity/package.xml -> /home/voltamon48/ros_test/install/service_activity/share/service_activity

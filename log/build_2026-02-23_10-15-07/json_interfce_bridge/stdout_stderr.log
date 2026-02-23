@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/json_interfce_bridge/json_interfce_bridge.egg-info
+writing ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/requires.txt
+writing top-level names to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/top_level.txt
+writing manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/voltamon48/ros_test/build/json_interfce_bridge/build
+creating /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib
+creating /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge
+copying json_interfce_bridge/node_pub.py -> /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge
+copying json_interfce_bridge/node_sub.py -> /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge
+copying json_interfce_bridge/__init__.py -> /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge
+running install
+running install_lib
+creating /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/node_pub.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/node_sub.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/__init__.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/node_pub.py to node_pub.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/node_sub.py to node_sub.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index
+creating /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index
+creating /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index/packages
+copying resource/json_interfce_bridge -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge
+running install_egg_info
+Copying ../../build/json_interfce_bridge/json_interfce_bridge.egg-info to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+Installing sub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+writing list of installed files to '/home/voltamon48/ros_test/build/json_interfce_bridge/install.log'

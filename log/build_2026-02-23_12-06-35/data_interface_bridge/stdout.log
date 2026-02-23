@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing data_interface_bridge.egg-info/PKG-INFO
+writing dependency_links to data_interface_bridge.egg-info/dependency_links.txt
+writing entry points to data_interface_bridge.egg-info/entry_points.txt
+writing requirements to data_interface_bridge.egg-info/requires.txt
+writing top-level names to data_interface_bridge.egg-info/top_level.txt
+reading manifest file 'data_interface_bridge.egg-info/SOURCES.txt'
+writing manifest file 'data_interface_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data-interface-bridge.egg-link (link to .)
+Installing pub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+Installing sub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+
+Installed /home/voltamon48/ros_test/build/data_interface_bridge
+running symlink_data
+symbolically linking /home/voltamon48/ros_test/build/data_interface_bridge/resource/data_interface_bridge -> /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/voltamon48/ros_test/build/data_interface_bridge/package.xml -> /home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge

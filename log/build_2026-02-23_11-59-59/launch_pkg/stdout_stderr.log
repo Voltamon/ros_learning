@@ -1,0 +1,23 @@
+running egg_info
+creating ../../build/launch_pkg/launch_pkg.egg-info
+writing ../../build/launch_pkg/launch_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_pkg/launch_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/launch_pkg/launch_pkg.egg-info/requires.txt
+writing top-level names to ../../build/launch_pkg/launch_pkg.egg-info/top_level.txt
+writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index
+creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index
+creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index/packages
+copying resource/launch_pkg -> /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg
+creating /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/launch
+copying launch/demo.launch.py -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/launch
+running install_egg_info
+Copying ../../build/launch_pkg/launch_pkg.egg-info to /home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages/launch_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/voltamon48/ros_test/build/launch_pkg/install.log'

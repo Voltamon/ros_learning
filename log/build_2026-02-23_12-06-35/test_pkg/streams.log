@@ -1,0 +1,26 @@
+[2.962s] Invoking command in '/home/voltamon48/ros_test/build/test_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/test_pkg/build --no-deps symlink_data --force
+[3.823s] running develop
+[4.100s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.101s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.159s] running egg_info
+[4.188s] writing test_pkg.egg-info/PKG-INFO
+[4.188s] writing dependency_links to test_pkg.egg-info/dependency_links.txt
+[4.189s] writing entry points to test_pkg.egg-info/entry_points.txt
+[4.189s] writing requirements to test_pkg.egg-info/requires.txt
+[4.189s] writing top-level names to test_pkg.egg-info/top_level.txt
+[4.241s] reading manifest file 'test_pkg.egg-info/SOURCES.txt'
+[4.242s] writing manifest file 'test_pkg.egg-info/SOURCES.txt'
+[4.271s] running build_ext
+[4.272s] Creating /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test-pkg.egg-link (link to .)
+[4.272s] Installing client_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.273s] Installing srv_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.273s] Installing sub_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.273s] Installing temp_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.273s] Installing test_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.274s] Installing topic_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.274s] 
+[4.274s] Installed /home/voltamon48/ros_test/build/test_pkg
+[4.274s] running symlink_data
+[4.275s] symbolically linking /home/voltamon48/ros_test/build/test_pkg/resource/test_pkg -> /home/voltamon48/ros_test/install/test_pkg/share/ament_index/resource_index/packages
+[4.275s] symbolically linking /home/voltamon48/ros_test/build/test_pkg/package.xml -> /home/voltamon48/ros_test/install/test_pkg/share/test_pkg
+[4.323s] Invoked command in '/home/voltamon48/ros_test/build/test_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/test_pkg/build --no-deps symlink_data --force

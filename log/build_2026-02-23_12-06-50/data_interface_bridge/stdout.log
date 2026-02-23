@@ -1,0 +1,35 @@
+running develop
+Removing /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data-interface-bridge.egg-link (link to .)
+running egg_info
+writing ../../build/data_interface_bridge/data_interface_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_interface_bridge/data_interface_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/data_interface_bridge/data_interface_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/data_interface_bridge/data_interface_bridge.egg-info/requires.txt
+writing top-level names to ../../build/data_interface_bridge/data_interface_bridge.egg-info/top_level.txt
+reading manifest file '../../build/data_interface_bridge/data_interface_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_interface_bridge/data_interface_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/node_pub.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+creating /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces/identity.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces/__init__.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/node_sub.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/__init__.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/node_pub.py to node_pub.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces/identity.py to identity.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/node_sub.py to node_sub.cpython-312.pyc
+byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/data_interface_bridge -> /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge
+running install_egg_info
+Copying ../../build/data_interface_bridge/data_interface_bridge.egg-info to /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+Installing sub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+writing list of installed files to '/home/voltamon48/ros_test/build/data_interface_bridge/install.log'

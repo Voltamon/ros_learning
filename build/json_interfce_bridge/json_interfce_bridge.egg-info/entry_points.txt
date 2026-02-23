@@ -1,0 +1,3 @@
+[console_scripts]
+pub = json_interfce_bridge.node_pub:main
+sub = json_interfce_bridge.node_sub:main

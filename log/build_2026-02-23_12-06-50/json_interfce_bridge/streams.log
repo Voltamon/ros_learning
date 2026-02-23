@@ -1,0 +1,36 @@
+[2.862s] Invoking command in '/home/voltamon48/ros_test/build/json_interfce_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/json_interfce_bridge/build
+[3.583s] running develop
+[3.880s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[3.881s]   self.local_index = Environment(self.shadow_path + sys.path)
+[3.939s] Removing /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json-interfce-bridge.egg-link (link to .)
+[4.004s] Invoked command in '/home/voltamon48/ros_test/build/json_interfce_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/json_interfce_bridge/build
+[4.007s] Invoking command in '/home/voltamon48/ros_test/src/json_interfce_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data --force
+[4.539s] running egg_info
+[4.584s] writing ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/PKG-INFO
+[4.585s] writing dependency_links to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/dependency_links.txt
+[4.585s] writing entry points to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/entry_points.txt
+[4.586s] writing requirements to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/requires.txt
+[4.586s] writing top-level names to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/top_level.txt
+[4.669s] reading manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+[4.671s] writing manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+[4.671s] running build
+[4.672s] running build_py
+[4.673s] running install
+[4.686s] running install_lib
+[4.724s] creating /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+[4.724s] copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/node_pub.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+[4.725s] copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/node_sub.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+[4.726s] copying /home/voltamon48/ros_test/build/json_interfce_bridge/build/lib/json_interfce_bridge/__init__.py -> /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge
+[4.726s] byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/node_pub.py to node_pub.cpython-312.pyc
+[4.727s] byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/node_sub.py to node_sub.cpython-312.pyc
+[4.728s] byte-compiling /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge/__init__.py to __init__.cpython-312.pyc
+[4.728s] running install_data
+[4.728s] copying resource/json_interfce_bridge -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index/packages
+[4.728s] copying package.xml -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge
+[4.729s] running install_egg_info
+[4.774s] Copying ../../build/json_interfce_bridge/json_interfce_bridge.egg-info to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge-0.0.0-py3.12.egg-info
+[4.776s] running install_scripts
+[5.011s] Installing pub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[5.011s] Installing sub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[5.012s] writing list of installed files to '/home/voltamon48/ros_test/build/json_interfce_bridge/install.log'
+[5.073s] Invoked command in '/home/voltamon48/ros_test/src/json_interfce_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,22 @@
+[2.169s] Invoking command in '/home/voltamon48/ros_test/src/json_interfce_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data
+[2.616s] running egg_info
+[2.648s] writing ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/PKG-INFO
+[2.649s] writing dependency_links to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/dependency_links.txt
+[2.649s] writing entry points to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/entry_points.txt
+[2.649s] writing requirements to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/requires.txt
+[2.650s] writing top-level names to ../../build/json_interfce_bridge/json_interfce_bridge.egg-info/top_level.txt
+[2.720s] reading manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+[2.721s] writing manifest file '../../build/json_interfce_bridge/json_interfce_bridge.egg-info/SOURCES.txt'
+[2.722s] running build
+[2.722s] running build_py
+[2.722s] running install
+[2.736s] running install_lib
+[2.773s] running install_data
+[2.773s] running install_egg_info
+[2.815s] removing '/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge-0.0.0-py3.12.egg-info' (and everything under it)
+[2.816s] Copying ../../build/json_interfce_bridge/json_interfce_bridge.egg-info to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json_interfce_bridge-0.0.0-py3.12.egg-info
+[2.818s] running install_scripts
+[3.059s] Installing pub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[3.060s] Installing sub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[3.060s] writing list of installed files to '/home/voltamon48/ros_test/build/json_interfce_bridge/install.log'
+[3.119s] Invoked command in '/home/voltamon48/ros_test/src/json_interfce_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[2.987s] Invoking command in '/home/voltamon48/ros_test/build/json_interfce_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/json_interfce_bridge/build --no-deps symlink_data --force
+[3.659s] running develop
+[3.955s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[3.955s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.006s] running egg_info
+[4.032s] writing json_interfce_bridge.egg-info/PKG-INFO
+[4.032s] writing dependency_links to json_interfce_bridge.egg-info/dependency_links.txt
+[4.033s] writing entry points to json_interfce_bridge.egg-info/entry_points.txt
+[4.033s] writing requirements to json_interfce_bridge.egg-info/requires.txt
+[4.033s] writing top-level names to json_interfce_bridge.egg-info/top_level.txt
+[4.093s] reading manifest file 'json_interfce_bridge.egg-info/SOURCES.txt'
+[4.094s] writing manifest file 'json_interfce_bridge.egg-info/SOURCES.txt'
+[4.129s] running build_ext
+[4.130s] Creating /home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages/json-interfce-bridge.egg-link (link to .)
+[4.130s] Installing pub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[4.130s] Installing sub script to /home/voltamon48/ros_test/install/json_interfce_bridge/lib/json_interfce_bridge
+[4.132s] 
+[4.132s] Installed /home/voltamon48/ros_test/build/json_interfce_bridge
+[4.133s] running symlink_data
+[4.133s] symbolically linking /home/voltamon48/ros_test/build/json_interfce_bridge/resource/json_interfce_bridge -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/ament_index/resource_index/packages
+[4.133s] symbolically linking /home/voltamon48/ros_test/build/json_interfce_bridge/package.xml -> /home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge
+[4.192s] Invoked command in '/home/voltamon48/ros_test/build/json_interfce_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/voltamon48/ros_test/build/json_interfce_bridge/build --no-deps symlink_data --force

@@ -1,0 +1,25 @@
+[2.387s] Invoking command in '/home/voltamon48/ros_test/build/launch_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/launch_pkg/build
+[2.913s] running develop
+[3.337s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[3.337s]   self.local_index = Environment(self.shadow_path + sys.path)
+[3.429s] Removing /home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages/launch-pkg.egg-link (link to .)
+[3.516s] Invoked command in '/home/voltamon48/ros_test/build/launch_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/voltamon48/ros_test/build/launch_pkg/build
+[3.518s] Invoking command in '/home/voltamon48/ros_test/src/launch_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data --force
+[4.196s] running egg_info
+[4.245s] writing ../../build/launch_pkg/launch_pkg.egg-info/PKG-INFO
+[4.245s] writing dependency_links to ../../build/launch_pkg/launch_pkg.egg-info/dependency_links.txt
+[4.247s] writing requirements to ../../build/launch_pkg/launch_pkg.egg-info/requires.txt
+[4.247s] writing top-level names to ../../build/launch_pkg/launch_pkg.egg-info/top_level.txt
+[4.299s] reading manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[4.301s] writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[4.301s] running build
+[4.301s] running install
+[4.321s] running install_data
+[4.322s] copying resource/launch_pkg -> /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index/packages
+[4.323s] copying package.xml -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg
+[4.328s] copying launch/demo.launch.py -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/launch
+[4.328s] running install_egg_info
+[4.431s] Copying ../../build/launch_pkg/launch_pkg.egg-info to /home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages/launch_pkg-0.0.0-py3.12.egg-info
+[4.432s] running install_scripts
+[4.660s] writing list of installed files to '/home/voltamon48/ros_test/build/launch_pkg/install.log'
+[4.730s] Invoked command in '/home/voltamon48/ros_test/src/launch_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data --force

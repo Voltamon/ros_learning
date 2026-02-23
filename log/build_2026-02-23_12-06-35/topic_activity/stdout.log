@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing topic_activity.egg-info/PKG-INFO
+writing dependency_links to topic_activity.egg-info/dependency_links.txt
+writing entry points to topic_activity.egg-info/entry_points.txt
+writing requirements to topic_activity.egg-info/requires.txt
+writing top-level names to topic_activity.egg-info/top_level.txt
+reading manifest file 'topic_activity.egg-info/SOURCES.txt'
+writing manifest file 'topic_activity.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages/topic-activity.egg-link (link to .)
+Installing num_count script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+Installing num_pub script to /home/voltamon48/ros_test/install/topic_activity/lib/topic_activity
+
+Installed /home/voltamon48/ros_test/build/topic_activity
+running symlink_data
+symbolically linking /home/voltamon48/ros_test/build/topic_activity/resource/topic_activity -> /home/voltamon48/ros_test/install/topic_activity/share/ament_index/resource_index/packages
+symbolically linking /home/voltamon48/ros_test/build/topic_activity/package.xml -> /home/voltamon48/ros_test/install/topic_activity/share/topic_activity

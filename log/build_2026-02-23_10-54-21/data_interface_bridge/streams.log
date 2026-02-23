@@ -1,0 +1,49 @@
+[2.379s] Invoking command in '/home/voltamon48/ros_test/src/data_interface_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/data_interface_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_interface_bridge build --build-base /home/voltamon48/ros_test/build/data_interface_bridge/build install --record /home/voltamon48/ros_test/build/data_interface_bridge/install.log --single-version-externally-managed install_data
+[3.079s] running egg_info
+[3.082s] creating ../../build/data_interface_bridge/data_interface_bridge.egg-info
+[3.121s] writing ../../build/data_interface_bridge/data_interface_bridge.egg-info/PKG-INFO
+[3.121s] writing dependency_links to ../../build/data_interface_bridge/data_interface_bridge.egg-info/dependency_links.txt
+[3.122s] writing entry points to ../../build/data_interface_bridge/data_interface_bridge.egg-info/entry_points.txt
+[3.122s] writing requirements to ../../build/data_interface_bridge/data_interface_bridge.egg-info/requires.txt
+[3.122s] writing top-level names to ../../build/data_interface_bridge/data_interface_bridge.egg-info/top_level.txt
+[3.122s] writing manifest file '../../build/data_interface_bridge/data_interface_bridge.egg-info/SOURCES.txt'
+[3.179s] reading manifest file '../../build/data_interface_bridge/data_interface_bridge.egg-info/SOURCES.txt'
+[3.179s] writing manifest file '../../build/data_interface_bridge/data_interface_bridge.egg-info/SOURCES.txt'
+[3.180s] running build
+[3.180s] running build_py
+[3.180s] creating /home/voltamon48/ros_test/build/data_interface_bridge/build
+[3.180s] creating /home/voltamon48/ros_test/build/data_interface_bridge/build/lib
+[3.181s] creating /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge
+[3.181s] copying data_interface_bridge/node_pub.py -> /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge
+[3.181s] copying data_interface_bridge/node_sub.py -> /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge
+[3.181s] copying data_interface_bridge/__init__.py -> /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge
+[3.181s] creating /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces
+[3.182s] copying data_interface_bridge/interfaces/identity.py -> /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces
+[3.182s] copying data_interface_bridge/interfaces/__init__.py -> /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces
+[3.182s] running install
+[3.191s] running install_lib
+[3.217s] creating /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+[3.217s] copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/node_pub.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+[3.218s] creating /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+[3.218s] copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces/identity.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+[3.218s] copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/interfaces/__init__.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces
+[3.218s] copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/node_sub.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+[3.218s] copying /home/voltamon48/ros_test/build/data_interface_bridge/build/lib/data_interface_bridge/__init__.py -> /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge
+[3.219s] byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/node_pub.py to node_pub.cpython-312.pyc
+[3.220s] byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces/identity.py to identity.cpython-312.pyc
+[3.223s] byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/interfaces/__init__.py to __init__.cpython-312.pyc
+[3.223s] byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/node_sub.py to node_sub.cpython-312.pyc
+[3.224s] byte-compiling /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge/__init__.py to __init__.cpython-312.pyc
+[3.224s] running install_data
+[3.224s] creating /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index
+[3.224s] creating /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index/resource_index
+[3.225s] creating /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index/resource_index/packages
+[3.225s] copying resource/data_interface_bridge -> /home/voltamon48/ros_test/install/data_interface_bridge/share/ament_index/resource_index/packages
+[3.225s] copying package.xml -> /home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge
+[3.225s] running install_egg_info
+[3.255s] Copying ../../build/data_interface_bridge/data_interface_bridge.egg-info to /home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages/data_interface_bridge-0.0.0-py3.12.egg-info
+[3.256s] running install_scripts
+[3.410s] Installing pub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+[3.410s] Installing sub script to /home/voltamon48/ros_test/install/data_interface_bridge/lib/data_interface_bridge
+[3.410s] writing list of installed files to '/home/voltamon48/ros_test/build/data_interface_bridge/install.log'
+[3.451s] Invoked command in '/home/voltamon48/ros_test/src/data_interface_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/data_interface_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_interface_bridge build --build-base /home/voltamon48/ros_test/build/data_interface_bridge/build install --record /home/voltamon48/ros_test/build/data_interface_bridge/install.log --single-version-externally-managed install_data

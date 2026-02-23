@@ -1,0 +1,6 @@
+source;share/json_interfce_bridge/hook/pythonpath.ps1
+source;share/json_interfce_bridge/hook/pythonpath.dsv
+source;share/json_interfce_bridge/hook/pythonpath.sh
+source;share/json_interfce_bridge/hook/ament_prefix_path.ps1
+source;share/json_interfce_bridge/hook/ament_prefix_path.dsv
+source;share/json_interfce_bridge/hook/ament_prefix_path.sh

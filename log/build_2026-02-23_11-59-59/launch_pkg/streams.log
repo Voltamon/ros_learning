@@ -1,0 +1,25 @@
+[2.861s] Invoking command in '/home/voltamon48/ros_test/src/launch_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data
+[3.565s] running egg_info
+[3.566s] creating ../../build/launch_pkg/launch_pkg.egg-info
+[3.617s] writing ../../build/launch_pkg/launch_pkg.egg-info/PKG-INFO
+[3.617s] writing dependency_links to ../../build/launch_pkg/launch_pkg.egg-info/dependency_links.txt
+[3.618s] writing requirements to ../../build/launch_pkg/launch_pkg.egg-info/requires.txt
+[3.618s] writing top-level names to ../../build/launch_pkg/launch_pkg.egg-info/top_level.txt
+[3.618s] writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[3.670s] reading manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[3.672s] writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[3.673s] running build
+[3.673s] running install
+[3.691s] running install_data
+[3.691s] creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index
+[3.691s] creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index
+[3.692s] creating /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index/packages
+[3.692s] copying resource/launch_pkg -> /home/voltamon48/ros_test/install/launch_pkg/share/ament_index/resource_index/packages
+[3.692s] copying package.xml -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg
+[3.692s] creating /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/launch
+[3.693s] copying launch/demo.launch.py -> /home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/launch
+[3.693s] running install_egg_info
+[3.794s] Copying ../../build/launch_pkg/launch_pkg.egg-info to /home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages/launch_pkg-0.0.0-py3.12.egg-info
+[3.796s] running install_scripts
+[4.027s] writing list of installed files to '/home/voltamon48/ros_test/build/launch_pkg/install.log'
+[4.074s] Invoked command in '/home/voltamon48/ros_test/src/launch_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data
