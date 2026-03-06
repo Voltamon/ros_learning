@@ -6,11 +6,12 @@ from rclpy.logging import LoggingSeverity
 class MyNode(Node):
     def __init__(self):
         super().__init__("node_name")
-        self.get_logger().log("This is a template for ROS node", LoggingSeverity.INFO)
 
 def main(args=None):
     rclpy.init(args=args)
     node = MyNode()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == "__main__":

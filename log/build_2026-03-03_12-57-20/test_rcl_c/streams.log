@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/voltamon48/ros_test/build/test_rcl_c': CMAKE_PREFIX_PATH=/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/test_rcl_c -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/test_rcl_c
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.315s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.408s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.418s] -- Detecting CXX compiler ABI info
+[0.498s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.520s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.657s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.792s] -- Found rclc: 6.1.0 (/opt/ros/jazzy/share/rclc/cmake)
+[0.859s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.874s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.004s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.109s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.220s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.241s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.348s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.349s] -- Configured cppcheck include dirs: 
+[1.349s] -- Configured cppcheck exclude dirs and/or files: 
+[1.350s] -- Added test 'lint_cmake' to check CMake code style
+[1.351s] -- Added test 'uncrustify' to check C / C++ code style
+[1.351s] -- Configured uncrustify additional arguments: 
+[1.352s] -- Added test 'xmllint' to check XML markup files
+[1.353s] -- Configuring done (1.3s)
+[1.355s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.356s]   Cannot find source file:
+[1.356s] 
+[1.356s]     src/main.c
+[1.356s] 
+[1.356s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.356s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.356s]   .f95 .f03 .hip .ispc
+[1.356s] 
+[1.356s] [0m
+[1.358s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.358s]   No SOURCES given to target: c_node_executable
+[1.358s] 
+[1.358s] [0m
+[1.358s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.366s] Invoked command in '/home/voltamon48/ros_test/build/test_rcl_c' returned '1': CMAKE_PREFIX_PATH=/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/test_rcl_c -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/test_rcl_c

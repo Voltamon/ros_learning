@@ -1,0 +1,547 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x776ca89678c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x776ca8a93590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x776ca8a93590>>, mixin_verb=('build',))
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/voltamon48/ros_test'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(bags/count) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(bags/data) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_interface_bridge) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_interface_bridge' with type 'ros.ament_python' and name 'data_interface_bridge'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_interfce_bridge) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/json_interfce_bridge' with type 'ros.ament_python' and name 'json_interfce_bridge'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_pkg' with type 'ros.ament_python' and name 'launch_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcl_utils) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rcl_utils' with type 'ros.ament_cmake' and name 'rcl_utils'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_activity) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_activity' with type 'ros.ament_python' and name 'service_activity'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pkg' with type 'ros.ament_python' and name 'test_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_rcl_c) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_rcl_c' with type 'ros.ament_cmake' and name 'test_rcl_c'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_activity) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_activity' with type 'ros.ament_python' and name 'topic_activity'
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/voltamon48/ros_test/install
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 198 installed packages in /opt/ros/jazzy
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'data_interface_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'data_interface_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/data_interface_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/data_interface_bridge', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/data_interface_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'json_interfce_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'json_interfce_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/json_interfce_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/json_interfce_bridge', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/json_interfce_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'launch_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/launch_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/launch_pkg', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/launch_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'rcl_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'rcl_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/rcl_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/rcl_utils', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/rcl_utils', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'service_activity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'service_activity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/service_activity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/service_activity', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/service_activity', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/test_pkg', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/test_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'test_rcl_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'test_rcl_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/test_rcl_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/test_rcl_c', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/test_rcl_c', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'topic_activity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'topic_activity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/voltamon48/ros_test/build/topic_activity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/voltamon48/ros_test/install/topic_activity', 'merge_install': False, 'path': '/home/voltamon48/ros_test/src/topic_activity', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/data_interface_bridge' with build type 'ament_python'
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_interface_bridge', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/ament_prefix_path.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/ament_prefix_path.dsv'
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/ament_prefix_path.sh'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/json_interfce_bridge' with build type 'ament_python'
+[0.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('json_interfce_bridge', 'ament_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/ament_prefix_path.ps1'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/ament_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/ament_prefix_path.sh'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/launch_pkg' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg', 'ament_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.sh'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/voltamon48/ros_test/src/rcl_utils' with build type 'ament_cmake'
+[0.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/voltamon48/ros_test/src/rcl_utils'
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/service_activity' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_activity', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/ament_prefix_path.sh'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/test_pkg' with build type 'ament_python'
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ament_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/ament_prefix_path.ps1'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/ament_prefix_path.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/voltamon48/ros_test/src/test_rcl_c' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/voltamon48/ros_test/src/test_rcl_c'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/voltamon48/ros_test/src/topic_activity' with build type 'ament_python'
+[0.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_activity', 'ament_prefix_path')
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/ament_prefix_path.dsv'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/data_interface_bridge'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/json_interfce_bridge'
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/launch_pkg'
+[0.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[1.082s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/service_activity'
+[1.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.281s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/test_pkg'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/test_rcl_c -- -j8 -l8
+[1.491s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/voltamon48/ros_test/src/topic_activity'
+[1.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/rcl_utils
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/test_rcl_c -- -j8 -l8
+[1.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/test_rcl_c
+[1.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_rcl_c)
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c' for CMake module files
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c' for CMake config files
+[1.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_rcl_c', 'cmake_prefix_path')
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.ps1'
+[1.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/bin'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib/pkgconfig/test_rcl_c.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib/python3.12/site-packages'
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/test_rcl_c
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.sh'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.zsh'
+[1.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/test_rcl_c/share/colcon-core/packages/test_rcl_c)
+[1.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_rcl_c)
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c' for CMake module files
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c' for CMake config files
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_rcl_c', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/hook/cmake_prefix_path.sh'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/bin'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib/pkgconfig/test_rcl_c.pc'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/lib/python3.12/site-packages'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_rcl_c/bin'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/test_rcl_c/share/colcon-core/packages/test_rcl_c)
+[1.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcl_utils)
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils' for CMake module files
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/rcl_utils
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils' for CMake config files
+[1.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcl_utils', 'cmake_prefix_path')
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/bin'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib/pkgconfig/rcl_utils.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib/python3.12/site-packages'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/bin'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.dsv'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.sh'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.zsh'
+[1.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/rcl_utils/share/colcon-core/packages/rcl_utils)
+[1.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcl_utils)
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils' for CMake module files
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils' for CMake config files
+[1.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcl_utils', 'cmake_prefix_path')
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/hook/cmake_prefix_path.sh'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/bin'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib/pkgconfig/rcl_utils.pc'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/lib/python3.12/site-packages'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/rcl_utils/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.dsv'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.sh'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.bash'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.zsh'
+[1.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/rcl_utils/share/colcon-core/packages/rcl_utils)
+[2.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/launch_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/json_interfce_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data
+[2.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/data_interface_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/data_interface_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_interface_bridge build --build-base /home/voltamon48/ros_test/build/data_interface_bridge/build install --record /home/voltamon48/ros_test/build/data_interface_bridge/install.log --single-version-externally-managed install_data
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/service_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_activity build --build-base /home/voltamon48/ros_test/build/service_activity/build install --record /home/voltamon48/ros_test/build/service_activity/install.log --single-version-externally-managed install_data
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/topic_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data
+[3.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/voltamon48/ros_test/src/test_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/voltamon48/ros_test/build/test_pkg/build install --record /home/voltamon48/ros_test/build/test_pkg/install.log --single-version-externally-managed install_data
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge' for CMake module files
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/json_interfce_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/json_interfce_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/json_interfce_bridge build --build-base /home/voltamon48/ros_test/build/json_interfce_bridge/build install --record /home/voltamon48/ros_test/build/json_interfce_bridge/install.log --single-version-externally-managed install_data
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge' for CMake config files
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge/lib'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge/bin'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge/lib/pkgconfig/json_interfce_bridge.pc'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages'
+[3.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('json_interfce_bridge', 'pythonpath')
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/pythonpath.ps1'
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/pythonpath.dsv'
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/hook/pythonpath.sh'
+[3.505s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/json_interfce_bridge/bin'
+[3.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(json_interfce_bridge)
+[3.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/package.ps1'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/package.dsv'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/package.sh'
+[3.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/package.bash'
+[3.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/json_interfce_bridge/share/json_interfce_bridge/package.zsh'
+[3.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/json_interfce_bridge/share/colcon-core/packages/json_interfce_bridge)
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg' for CMake module files
+[3.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/launch_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/voltamon48/ros_test/build/launch_pkg/build install --record /home/voltamon48/ros_test/build/launch_pkg/install.log --single-version-externally-managed install_data
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg' for CMake config files
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg/lib'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg/bin'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg/lib/pkgconfig/launch_pkg.pc'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages'
+[3.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg', 'pythonpath')
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/pythonpath.ps1'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/pythonpath.dsv'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/hook/pythonpath.sh'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/launch_pkg/bin'
+[3.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_pkg)
+[3.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/package.ps1'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/package.dsv'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/package.sh'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/package.bash'
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/launch_pkg/share/launch_pkg/package.zsh'
+[3.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/launch_pkg/share/colcon-core/packages/launch_pkg)
+[3.913s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity' for CMake module files
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/topic_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/topic_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_activity build --build-base /home/voltamon48/ros_test/build/topic_activity/build install --record /home/voltamon48/ros_test/build/topic_activity/install.log --single-version-externally-managed install_data
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity' for CMake config files
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity/lib'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity/bin'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity/lib/pkgconfig/topic_activity.pc'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages'
+[3.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_activity', 'pythonpath')
+[3.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/pythonpath.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/pythonpath.dsv'
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/hook/pythonpath.sh'
+[3.920s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/topic_activity/bin'
+[3.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_activity)
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/package.ps1'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/package.dsv'
+[3.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/package.sh'
+[3.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/package.bash'
+[3.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/topic_activity/share/topic_activity/package.zsh'
+[3.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/topic_activity/share/colcon-core/packages/topic_activity)
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge' for CMake module files
+[4.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/data_interface_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/data_interface_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_interface_bridge build --build-base /home/voltamon48/ros_test/build/data_interface_bridge/build install --record /home/voltamon48/ros_test/build/data_interface_bridge/install.log --single-version-externally-managed install_data
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge' for CMake config files
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge/lib'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge/bin'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge/lib/pkgconfig/data_interface_bridge.pc'
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages'
+[4.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_interface_bridge', 'pythonpath')
+[4.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/pythonpath.ps1'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/pythonpath.dsv'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/hook/pythonpath.sh'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/data_interface_bridge/bin'
+[4.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_interface_bridge)
+[4.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/package.ps1'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/package.dsv'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/package.sh'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/package.bash'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/data_interface_bridge/share/data_interface_bridge/package.zsh'
+[4.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/data_interface_bridge/share/colcon-core/packages/data_interface_bridge)
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg' for CMake module files
+[4.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/test_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/voltamon48/ros_test/build/test_pkg/build install --record /home/voltamon48/ros_test/build/test_pkg/install.log --single-version-externally-managed install_data
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg' for CMake config files
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg/lib'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg/bin'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages'
+[4.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath')
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/pythonpath.ps1'
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/pythonpath.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/hook/pythonpath.sh'
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/test_pkg/bin'
+[4.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[4.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/package.ps1'
+[4.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/package.dsv'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/package.sh'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/package.bash'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/test_pkg/share/test_pkg/package.zsh'
+[4.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/test_pkg/share/colcon-core/packages/test_pkg)
+[4.124s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity' for CMake module files
+[4.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/voltamon48/ros_test/src/service_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/service_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_activity build --build-base /home/voltamon48/ros_test/build/service_activity/build install --record /home/voltamon48/ros_test/build/service_activity/install.log --single-version-externally-managed install_data
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity' for CMake config files
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity/lib'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity/bin'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity/lib/pkgconfig/service_activity.pc'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages'
+[4.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_activity', 'pythonpath')
+[4.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/pythonpath.ps1'
+[4.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/pythonpath.dsv'
+[4.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/voltamon48/ros_test/install/service_activity/share/service_activity/hook/pythonpath.sh'
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/home/voltamon48/ros_test/install/service_activity/bin'
+[4.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_activity)
+[4.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/service_activity/share/service_activity/package.ps1'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/voltamon48/ros_test/install/service_activity/share/service_activity/package.dsv'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/service_activity/share/service_activity/package.sh'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/service_activity/share/service_activity/package.bash'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/voltamon48/ros_test/install/service_activity/share/service_activity/package.zsh'
+[4.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/voltamon48/ros_test/install/service_activity/share/colcon-core/packages/service_activity)
+[4.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.133s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.138s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.150s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/voltamon48/ros_test/install/local_setup.ps1'
+[4.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/voltamon48/ros_test/install/_local_setup_util_ps1.py'
+[4.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/voltamon48/ros_test/install/setup.ps1'
+[4.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/voltamon48/ros_test/install/local_setup.sh'
+[4.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/voltamon48/ros_test/install/_local_setup_util_sh.py'
+[4.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/voltamon48/ros_test/install/setup.sh'
+[4.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/voltamon48/ros_test/install/local_setup.bash'
+[4.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/voltamon48/ros_test/install/setup.bash'
+[4.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/voltamon48/ros_test/install/local_setup.zsh'
+[4.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/voltamon48/ros_test/install/setup.zsh'

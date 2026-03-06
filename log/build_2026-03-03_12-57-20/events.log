@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'data_interface_bridge'}
+[0.000199] (-) JobUnselected: {'identifier': 'json_interfce_bridge'}
+[0.000217] (-) JobUnselected: {'identifier': 'launch_pkg'}
+[0.000230] (-) JobUnselected: {'identifier': 'service_activity'}
+[0.000243] (-) JobUnselected: {'identifier': 'test_pkg'}
+[0.000256] (-) JobUnselected: {'identifier': 'topic_activity'}
+[0.000274] (test_rcl_c) JobQueued: {'identifier': 'test_rcl_c', 'dependencies': OrderedDict()}
+[0.000292] (test_rcl_c) JobStarted: {'identifier': 'test_rcl_c'}
+[0.011516] (test_rcl_c) JobProgress: {'identifier': 'test_rcl_c', 'progress': 'cmake'}
+[0.012027] (test_rcl_c) Command: {'cmd': ['/usr/bin/cmake', '/home/voltamon48/ros_test/src/test_rcl_c', '-DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/test_rcl_c'], 'cwd': '/home/voltamon48/ros_test/build/test_rcl_c', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'voltamon48', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/voltamon48', 'OLDPWD': '/home/voltamon48/ros_test/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2452', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/voltamon48/ros_test/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'voltamon48', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'voltamon48', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/voltamon48-HP:@/tmp/.ICE-unix/2411,unix/voltamon48-HP:/tmp/.ICE-unix/2411', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/852fc94f_c375_4870_9562_361396833eb4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C1SVL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/voltamon48/ros_test/build/test_rcl_c', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/voltamon48/ros_test/install/topic_activity/lib/python3.12/site-packages:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:/home/voltamon48/ros_test/install/service_activity/lib/python3.12/site-packages:/home/voltamon48/ros_test/install/launch_pkg/lib/python3.12/site-packages:/home/voltamon48/ros_test/install/json_interfce_bridge/lib/python3.12/site-packages:/home/voltamon48/ros_test/install/data_interface_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy'}), 'shell': False}
+[0.099444] (-) TimerEvent: {}
+[0.182273] (test_rcl_c) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199584] (-) TimerEvent: {}
+[0.295428] (test_rcl_c) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299689] (-) TimerEvent: {}
+[0.315004] (test_rcl_c) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.397733] (test_rcl_c) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399792] (-) TimerEvent: {}
+[0.408420] (test_rcl_c) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.408892] (test_rcl_c) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409534] (test_rcl_c) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.418224] (test_rcl_c) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.497971] (test_rcl_c) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499905] (-) TimerEvent: {}
+[0.509632] (test_rcl_c) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.509878] (test_rcl_c) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.510394] (test_rcl_c) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.520479] (test_rcl_c) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.599998] (-) TimerEvent: {}
+[0.657419] (test_rcl_c) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700087] (-) TimerEvent: {}
+[0.792553] (test_rcl_c) StdoutLine: {'line': b'-- Found rclc: 6.1.0 (/opt/ros/jazzy/share/rclc/cmake)\n'}
+[0.800184] (-) TimerEvent: {}
+[0.858732] (test_rcl_c) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.873996] (test_rcl_c) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.894578] (test_rcl_c) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900259] (-) TimerEvent: {}
+[0.917049] (test_rcl_c) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.999429] (test_rcl_c) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.000448] (-) TimerEvent: {}
+[1.004258] (test_rcl_c) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.089762] (test_rcl_c) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.100586] (-) TimerEvent: {}
+[1.109338] (test_rcl_c) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.130166] (test_rcl_c) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.200709] (-) TimerEvent: {}
+[1.220581] (test_rcl_c) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.241347] (test_rcl_c) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.300822] (-) TimerEvent: {}
+[1.348568] (test_rcl_c) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.348828] (test_rcl_c) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.348933] (test_rcl_c) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.349797] (test_rcl_c) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.351108] (test_rcl_c) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.351247] (test_rcl_c) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.351796] (test_rcl_c) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.353512] (test_rcl_c) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.355673] (test_rcl_c) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[1.355810] (test_rcl_c) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.355892] (test_rcl_c) StderrLine: {'line': b'\n'}
+[1.355979] (test_rcl_c) StderrLine: {'line': b'    src/main.c\n'}
+[1.356069] (test_rcl_c) StderrLine: {'line': b'\n'}
+[1.356147] (test_rcl_c) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[1.356217] (test_rcl_c) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[1.356284] (test_rcl_c) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[1.356351] (test_rcl_c) StderrLine: {'line': b'\n'}
+[1.356417] (test_rcl_c) StderrLine: {'line': b'\x1b[0m\n'}
+[1.357909] (test_rcl_c) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (add_executable):\n'}
+[1.358035] (test_rcl_c) StderrLine: {'line': b'  No SOURCES given to target: c_node_executable\n'}
+[1.358129] (test_rcl_c) StderrLine: {'line': b'\n'}
+[1.358211] (test_rcl_c) StderrLine: {'line': b'\x1b[0m\n'}
+[1.358289] (test_rcl_c) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.366005] (test_rcl_c) CommandEnded: {'returncode': 1}
+[1.389214] (test_rcl_c) JobEnded: {'identifier': 'test_rcl_c', 'rc': 1}
+[1.399722] (-) EventReactorShutdown: {}

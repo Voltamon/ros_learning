@@ -1,0 +1,10 @@
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:5:32:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kros_init[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+    5 |     ros_t ros = ros_init(argc, [01;35m[Kargv[m[K);
+      |                                [01;35m[K^~~~[m[K
+      |                                [01;35m[K|[m[K
+      |                                [01;35m[Kchar **[m[K
+In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:1[m[K:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:12:45:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst char * const*[m[K’ but argument is of type ‘[01m[Kchar **[m[K’
+   12 | ros_t ros_init(int argc, [01;36m[Kconst char *const *argv[m[K);
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K

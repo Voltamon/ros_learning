@@ -1,3 +1,0 @@
-[console_scripts]
-pub = data_interface_bridge.node_pub:main
-sub = data_interface_bridge.node_sub:main

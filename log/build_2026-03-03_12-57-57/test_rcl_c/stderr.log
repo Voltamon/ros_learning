@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:32 (install):
+  install TARGETS given target "c_node_executable" which does not exist.
+
+[0m

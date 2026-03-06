@@ -1,0 +1,14 @@
+[ 25%] [32mBuilding C object CMakeFiles/example.dir/src/ros.c.o[0m
+[ 50%] [32m[1mLinking C executable example[0m
+/usr/bin/ld: CMakeFiles/example.dir/src/ros.c.o: in function `ros_init':
+ros.c:(.text+0xd1): undefined reference to `check_rcl_ret'
+/usr/bin/ld: ros.c:(.text+0x135): undefined reference to `check_rcl_ret'
+/usr/bin/ld: CMakeFiles/example.dir/src/ros.c.o: in function `ros_free':
+ros.c:(.text+0x20b): undefined reference to `check_rcl_ret'
+/usr/bin/ld: ros.c:(.text+0x23a): undefined reference to `check_rcl_ret'
+/usr/bin/ld: ros.c:(.text+0x265): undefined reference to `check_rcl_ret'
+/usr/bin/ld: CMakeFiles/example.dir/src/node.c.o:node.c:(.text+0x99): more undefined references to `check_rcl_ret' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/example.dir/build.make:172: example] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

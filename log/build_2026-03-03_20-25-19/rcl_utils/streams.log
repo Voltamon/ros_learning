@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.034s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.268s] -- Found rcl: 9.2.9 (/opt/ros/jazzy/share/rcl/cmake)
+[0.298s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.415s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.509s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.646s] -- Configuring done (0.6s)
+[0.655s] -- Generating done (0.0s)
+[0.660s] -- Build files have been written to: /home/voltamon48/ros_test/build/rcl_utils
+[0.700s] [ 75%] [32mBuilding C object CMakeFiles/example.dir/src/ros.c.o[0m
+[0.701s] [ 75%] [32mBuilding C object CMakeFiles/example.dir/src/main.c.o[0m
+[0.701s] [ 75%] [32mBuilding C object CMakeFiles/example.dir/src/node.c.o[0m
+[0.790s] In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:5[m[K,
+[0.790s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:1[m[K:
+[0.791s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+[0.791s]     8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+[0.791s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.791s] In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/node.h:5[m[K,
+[0.791s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/node.c:1[m[K:
+[0.791s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+[0.792s]     8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+[0.792s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.792s] In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:5[m[K,
+[0.792s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:1[m[K:
+[0.792s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+[0.793s]     8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+[0.793s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.793s] compilation terminated.
+[0.793s] compilation terminated.
+[0.793s] compilation terminated.
+[0.793s] gmake[2]: *** [CMakeFiles/example.dir/build.make:104: CMakeFiles/example.dir/src/node.c.o] Error 1
+[0.794s] gmake[2]: *** Waiting for unfinished jobs....
+[0.794s] gmake[2]: *** [CMakeFiles/example.dir/build.make:90: CMakeFiles/example.dir/src/ros.c.o] Error 1
+[0.794s] gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/main.c.o] Error 1
+[0.794s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+[0.795s] gmake: *** [Makefile:146: all] Error 2
+[0.795s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8

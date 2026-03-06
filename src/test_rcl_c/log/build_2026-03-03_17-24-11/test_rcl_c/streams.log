@@ -1,0 +1,49 @@
+[0.012s] Invoking command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c -- -j8 -l8
+[0.032s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.226s] -- Found rclc: 6.1.0 (/opt/ros/jazzy/share/rclc/cmake)
+[0.253s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.343s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.474s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.572s] -- Configured cppcheck include dirs: 
+[0.572s] -- Configured cppcheck exclude dirs and/or files: 
+[0.574s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.574s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.577s] -- Added test 'lint_cmake' to check CMake code style
+[0.578s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.586s] -- Added test 'uncrustify' to check C / C++ code style
+[0.586s] -- Configured uncrustify additional arguments: 
+[0.587s] -- Added test 'xmllint' to check XML markup files
+[0.588s] -- Configuring done (0.6s)
+[0.597s] -- Generating done (0.0s)
+[0.603s] -- Build files have been written to: /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c
+[0.632s] [ 50%] [32mBuilding C object CMakeFiles/base_node.dir/src/node.c.o[0m
+[0.694s] [100%] [32m[1mLinking C executable base_node[0m
+[0.769s] [100%] Built target base_node
+[0.778s] Invoked command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c -- -j8 -l8
+[0.786s] Invoking command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c
+[0.792s] -- Install configuration: ""
+[0.792s] -- Installing: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/lib/test_rcl_c/base_node
+[0.792s] -- Set non-toolchain portion of runtime path of "/home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/lib/test_rcl_c/base_node" to ""
+[0.792s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/ament_index/resource_index/package_run_dependencies/test_rcl_c
+[0.792s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/ament_index/resource_index/parent_prefix_path/test_rcl_c
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/environment/ament_prefix_path.sh
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/environment/ament_prefix_path.dsv
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/environment/path.sh
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/environment/path.dsv
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/local_setup.bash
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/local_setup.sh
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/local_setup.zsh
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/local_setup.dsv
+[0.793s] -- Installing: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/package.dsv
+[0.793s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/ament_index/resource_index/packages/test_rcl_c
+[0.794s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/cmake/test_rcl_cConfig.cmake
+[0.794s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/cmake/test_rcl_cConfig-version.cmake
+[0.794s] -- Up-to-date: /home/voltamon48/ros_test/src/test_rcl_c/install/test_rcl_c/share/test_rcl_c/package.xml
+[0.795s] Invoked command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c

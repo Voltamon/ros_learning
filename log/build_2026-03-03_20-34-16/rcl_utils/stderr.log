@@ -1,0 +1,42 @@
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:[m[K In function ‘[01m[Kros_init[m[K’:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:5:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+    5 |     ros.context = rcl_get_zero_initialized_context()
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+    6 |     [32m[Kros[m[K.init_options = rcl_get_zero_initialized_init_options();
+      |     [32m[K~~~[m[K                                              
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/node.c:[m[K In function ‘[01m[Kcreate_node[m[K’:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/node.c:10:9:[m[K [01;31m[Kerror: [m[Kconversion to non-scalar type requested
+   10 |         [01;31m[Kreturn[m[K (rcl_node_t) NULL;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:9:5:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kros_allocator_t[m[K’; did you mean ‘[01m[Krcl_allocator_t[m[K’?
+    9 |     [01;31m[Kros_allocator_t[m[K alloc = rcl_get_default_allocator();
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_allocator_t[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:9:29:[m[K [01;31m[Kerror: [m[Kincompatible types when initializing type ‘[01m[Kint[m[K’ using type ‘[01m[Krcutils_allocator_t[m[K’ {aka ‘[01m[Kstruct rcutils_allocator_s[m[K’}
+    9 |     ros_allocator_t alloc = [01;31m[Krcl_get_default_allocator[m[K();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:11:52:[m[K [01;31m[Kerror: [m[Kincompatible type for argument 2 of ‘[01m[Krcl_init_options_init[m[K’
+   11 |     ret = rcl_init_options_init(&ros.init_options, [01;31m[Kalloc[m[K);
+      |                                                    [01;31m[K^~~~~[m[K
+      |                                                    [01;31m[K|[m[K
+      |                                                    [01;31m[Kint[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rcl/rcl/context.h:29[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/init.h:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:76[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:4[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:1[m[K:
+[01m[K/opt/ros/jazzy/include/rcl/rcl/init_options.h:75:74:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Krcl_allocator_t[m[K’ {aka ‘[01m[Kstruct rcutils_allocator_s[m[K’} but argument is of type ‘[01m[Kint[m[K’
+   75 | rcl_init_options_init(rcl_init_options_t * init_options, [01;36m[Krcl_allocator_t allocator[m[K);
+      |                                                          [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:14:16:[m[K [01;31m[Kerror: [m[Kincompatible types when returning type ‘[01m[Kvoid *[m[K’ but ‘[01m[Kros_t[m[K’ {aka ‘[01m[Kstruct ros[m[K’} was expected
+   14 |         return [01;31m[KNULL[m[K;
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:20:16:[m[K [01;31m[Kerror: [m[Kincompatible types when returning type ‘[01m[Kvoid *[m[K’ but ‘[01m[Kros_t[m[K’ {aka ‘[01m[Kstruct ros[m[K’} was expected
+   20 |         return [01;31m[KNULL[m[K;
+      |                [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/example.dir/build.make:104: CMakeFiles/example.dir/src/node.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/example.dir/build.make:90: CMakeFiles/example.dir/src/ros.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

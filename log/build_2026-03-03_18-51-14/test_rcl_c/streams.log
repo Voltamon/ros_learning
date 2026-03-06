@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/voltamon48/ros_test/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/test_rcl_c -- -j8 -l8
+[0.054s] [ 50%] [32mBuilding C object CMakeFiles/base_node.dir/src/node.c.o[0m
+[0.121s] [100%] [32m[1mLinking C executable base_node[0m
+[0.194s] [100%] Built target base_node
+[0.203s] Invoked command in '/home/voltamon48/ros_test/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/test_rcl_c -- -j8 -l8
+[0.214s] Invoking command in '/home/voltamon48/ros_test/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/test_rcl_c
+[0.220s] -- Install configuration: ""
+[0.221s] -- Installing: /home/voltamon48/ros_test/install/test_rcl_c/lib/test_rcl_c/base_node
+[0.221s] -- Set non-toolchain portion of runtime path of "/home/voltamon48/ros_test/install/test_rcl_c/lib/test_rcl_c/base_node" to ""
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/ament_index/resource_index/package_run_dependencies/test_rcl_c
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/ament_index/resource_index/parent_prefix_path/test_rcl_c
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/environment/path.sh
+[0.221s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/environment/path.dsv
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/local_setup.bash
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/local_setup.sh
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/local_setup.zsh
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/local_setup.dsv
+[0.222s] -- Installing: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.dsv
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/ament_index/resource_index/packages/test_rcl_c
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/cmake/test_rcl_cConfig.cmake
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/cmake/test_rcl_cConfig-version.cmake
+[0.222s] -- Up-to-date: /home/voltamon48/ros_test/install/test_rcl_c/share/test_rcl_c/package.xml
+[0.224s] Invoked command in '/home/voltamon48/ros_test/build/test_rcl_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/test_rcl_c

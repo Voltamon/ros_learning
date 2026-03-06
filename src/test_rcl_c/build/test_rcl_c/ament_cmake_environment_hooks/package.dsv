@@ -1,0 +1,4 @@
+source;share/test_rcl_c/local_setup.bash
+source;share/test_rcl_c/local_setup.dsv
+source;share/test_rcl_c/local_setup.sh
+source;share/test_rcl_c/local_setup.zsh

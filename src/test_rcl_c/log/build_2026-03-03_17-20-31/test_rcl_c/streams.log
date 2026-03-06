@@ -1,0 +1,19 @@
+[0.011s] Invoking command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c -- -j8 -l8
+[0.051s] [ 50%] [32mBuilding C object CMakeFiles/pub_node.dir/src/pub_node.c.o[0m
+[0.096s] [01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:[m[K In function ‘[01m[Kerror_handler[m[K’:
+[0.096s] [01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:14:54:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+[0.096s]    14 |                 fprintf(stderr, rcl_get_error_state()[01;35m[K-[m[K>message);
+[0.096s]       |                                                      [01;35m[K^[m[K
+[0.096s] [01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:15:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.096s]    15 |                 rcl_reset_error()
+[0.096s]       |                                  [01;31m[K^[m[K
+[0.096s]       |                                  [32m[K;[m[K
+[0.096s]    16 |         [32m[K}[m[K
+[0.096s]       |         [32m[K~[m[K                         
+[0.096s] [01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:18:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+[0.096s]    18 |         [01;35m[Kfprintf[m[K(stderr, msg);
+[0.097s]       |         [01;35m[K^~~~~~~[m[K
+[0.098s] gmake[2]: *** [CMakeFiles/pub_node.dir/build.make:76: CMakeFiles/pub_node.dir/src/pub_node.c.o] Error 1
+[0.098s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_node.dir/all] Error 2
+[0.098s] gmake: *** [Makefile:146: all] Error 2
+[0.100s] Invoked command in '/home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/voltamon48/ros_test/install/topic_activity:/home/voltamon48/ros_test/install/test_pkg:/home/voltamon48/ros_test/install/service_activity:/home/voltamon48/ros_test/install/launch_pkg:/home/voltamon48/ros_test/install/json_interfce_bridge:/home/voltamon48/ros_test/install/data_interface_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/src/test_rcl_c/build/test_rcl_c -- -j8 -l8

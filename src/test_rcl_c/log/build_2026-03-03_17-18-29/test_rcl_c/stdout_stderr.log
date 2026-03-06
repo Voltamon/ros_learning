@@ -1,0 +1,69 @@
+[ 50%] [32mBuilding C object CMakeFiles/pub_node.dir/src/pub_node.c.o[0m
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:[m[K In function ‘[01m[Kerror_handler[m[K’:
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:14:54:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+   14 |                 fprintf(stderr, rcl_get_error_state()[01;35m[K-[m[K>message);
+      |                                                      [01;35m[K^[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:15:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   15 |                 rcl_reset_error()
+      |                                  [01;31m[K^[m[K
+      |                                  [32m[K;[m[K
+   16 |         [32m[K}[m[K
+      |         [32m[K~[m[K                         
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:18:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+   18 |         [01;35m[Kfprintf[m[K(stderr, msg);
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:[m[K In function ‘[01m[Krcl_cleanup[m[K’:
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:27:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kret[m[K’
+   27 |         rcl_ret_t [01;31m[Kret[m[K = rcl_init_options_fini(&init_ops);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:23:19:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kret[m[K’ with type ‘[01m[Krcl_ret_t[m[K’ {aka ‘[01m[Kint[m[K’}
+   23 |         rcl_ret_t [01;36m[Kret[m[K = rcl_shutdown(ctx);
+      |                   [01;36m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:27:47:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Krcl_init_options_fini[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   27 |         rcl_ret_t ret = rcl_init_options_fini([01;35m[K&init_ops[m[K);
+      |                                               [01;35m[K^~~~~~~~~[m[K
+      |                                               [01;35m[K|[m[K
+      |                                               [01;35m[Krcl_init_options_t ** {aka struct rcl_init_options_s **}[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rcl/rcl/context.h:29[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/init.h:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:76[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:5[m[K:
+[01m[K/opt/ros/jazzy/include/rcl/rcl/init_options.h:130:44:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Krcl_init_options_t *[m[K’ {aka ‘[01m[Kstruct rcl_init_options_s *[m[K’} but argument is of type ‘[01m[Krcl_init_options_t **[m[K’ {aka ‘[01m[Kstruct rcl_init_options_s **[m[K’}
+  130 | rcl_init_options_fini([01;36m[Krcl_init_options_t * init_options[m[K);
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:31:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kret[m[K’
+   31 |         rcl_ret_t [01;31m[Kret[m[K = rcl_context_fini(&ctx);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:27:19:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kret[m[K’ with type ‘[01m[Krcl_ret_t[m[K’ {aka ‘[01m[Kint[m[K’}
+   27 |         rcl_ret_t [01;36m[Kret[m[K = rcl_init_options_fini(&init_ops);
+      |                   [01;36m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:31:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Krcl_context_fini[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   31 |         rcl_ret_t ret = rcl_context_fini([01;35m[K&ctx[m[K);
+      |                                          [01;35m[K^~~~[m[K
+      |                                          [01;35m[K|[m[K
+      |                                          [01;35m[Krcl_context_t ** {aka struct rcl_context_s **}[m[K
+[01m[K/opt/ros/jazzy/include/rcl/rcl/context.h:185:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Krcl_context_t *[m[K’ {aka ‘[01m[Kstruct rcl_context_s *[m[K’} but argument is of type ‘[01m[Krcl_context_t **[m[K’ {aka ‘[01m[Kstruct rcl_context_s **[m[K’}
+  185 | rcl_context_fini([01;36m[Krcl_context_t * context[m[K);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:47:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kret[m[K’
+   47 |         rcl_ret_t [01;31m[Kret[m[K = rcl_init(argc, argv, &init_ops, &ctx);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:43:19:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kret[m[K’ with type ‘[01m[Krcl_ret_t[m[K’ {aka ‘[01m[Kint[m[K’}
+   43 |         rcl_ret_t [01;36m[Kret[m[K = rcl_init_options_init(&init_ops, alloc);
+      |                   [01;36m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:54:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kret[m[K’
+   54 |         rcl_ret_t [01;31m[Kret[m[K = rcl_node_init(&node, "basic_rcl_node", "", &ctx, &node_ops);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:47:19:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kret[m[K’ with type ‘[01m[Krcl_ret_t[m[K’ {aka ‘[01m[Kint[m[K’}
+   47 |         rcl_ret_t [01;36m[Kret[m[K = rcl_init(argc, argv, &init_ops, &ctx);
+      |                   [01;36m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:61:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kret[m[K’
+   61 |         rcl_ret_t [01;31m[Kret[m[K = rcl_node_fini(&node);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/voltamon48/ros_test/src/test_rcl_c/src/pub_node.c:54:19:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kret[m[K’ with type ‘[01m[Krcl_ret_t[m[K’ {aka ‘[01m[Kint[m[K’}
+   54 |         rcl_ret_t [01;36m[Kret[m[K = rcl_node_init(&node, "basic_rcl_node", "", &ctx, &node_ops);
+      |                   [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/pub_node.dir/build.make:76: CMakeFiles/pub_node.dir/src/pub_node.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

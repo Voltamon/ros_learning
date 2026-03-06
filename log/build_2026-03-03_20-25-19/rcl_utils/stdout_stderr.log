@@ -1,0 +1,40 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rcl: 9.2.9 (/opt/ros/jazzy/share/rcl/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/voltamon48/ros_test/build/rcl_utils
+[ 75%] [32mBuilding C object CMakeFiles/example.dir/src/ros.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/example.dir/src/main.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/example.dir/src/node.c.o[0m
+In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:5[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:1[m[K:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+    8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/node.h:5[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/node.c:1[m[K:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+    8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:5[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/ros.c:1[m[K:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:8:10:[m[K [01;31m[Kfatal error: [m[Krcl/error_handling.g: No such file or directory
+    8 | #include [01;31m[K<rcl/error_handling.g>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/example.dir/build.make:104: CMakeFiles/example.dir/src/node.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/example.dir/build.make:90: CMakeFiles/example.dir/src/ros.c.o] Error 1
+gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/main.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

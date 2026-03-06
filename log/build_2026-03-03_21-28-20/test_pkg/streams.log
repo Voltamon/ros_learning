@@ -1,0 +1,30 @@
+[2.956s] Invoking command in '/home/voltamon48/ros_test/src/test_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/voltamon48/ros_test/build/test_pkg/build install --record /home/voltamon48/ros_test/build/test_pkg/install.log --single-version-externally-managed install_data
+[3.647s] running egg_info
+[3.700s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[3.701s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[3.702s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[3.703s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[3.703s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[3.822s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.822s] adding license file 'LICENSE'
+[3.823s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.823s] running build
+[3.823s] running build_py
+[3.823s] copying test_pkg/template_node.py -> /home/voltamon48/ros_test/build/test_pkg/build/lib/test_pkg
+[3.841s] running install
+[3.862s] running install_lib
+[3.959s] copying /home/voltamon48/ros_test/build/test_pkg/build/lib/test_pkg/template_node.py -> /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg
+[3.960s] byte-compiling /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg/template_node.py to template_node.cpython-312.pyc
+[3.962s] running install_data
+[3.962s] running install_egg_info
+[4.018s] removing '/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[4.022s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info
+[4.022s] running install_scripts
+[4.236s] Installing client_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.237s] Installing srv_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.237s] Installing sub_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.237s] Installing temp_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.237s] Installing test_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.237s] Installing topic_node script to /home/voltamon48/ros_test/install/test_pkg/lib/test_pkg
+[4.238s] writing list of installed files to '/home/voltamon48/ros_test/build/test_pkg/install.log'
+[4.290s] Invoked command in '/home/voltamon48/ros_test/src/test_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/voltamon48/ros_test/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/voltamon48/ros_test/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/voltamon48/ros_test/build/test_pkg/build install --record /home/voltamon48/ros_test/build/test_pkg/install.log --single-version-externally-managed install_data

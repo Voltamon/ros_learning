@@ -30,7 +30,7 @@ class Pub(Node):
 
         msg = String()
         msg.data = json.dumps(asdict(data))
-        self.publisher_.publish(msg)
+        self.publisher_.publish(msg)    
 
 
 def main(args=None):
