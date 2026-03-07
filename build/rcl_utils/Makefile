@@ -282,6 +282,30 @@ src/node.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/node.c.s
 .PHONY : src/node.c.s
 
+src/pub.o: src/pub.c.o
+.PHONY : src/pub.o
+
+# target to build an object file
+src/pub.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/pub.c.o
+.PHONY : src/pub.c.o
+
+src/pub.i: src/pub.c.i
+.PHONY : src/pub.i
+
+# target to preprocess a source file
+src/pub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/pub.c.i
+.PHONY : src/pub.c.i
+
+src/pub.s: src/pub.c.s
+.PHONY : src/pub.s
+
+# target to generate assembly for a file
+src/pub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/pub.c.s
+.PHONY : src/pub.c.s
+
 src/ros.o: src/ros.c.o
 .PHONY : src/ros.o
 
@@ -305,6 +329,54 @@ src/ros.s: src/ros.c.s
 src/ros.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/ros.c.s
 .PHONY : src/ros.c.s
+
+src/spin.o: src/spin.c.o
+.PHONY : src/spin.o
+
+# target to build an object file
+src/spin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/spin.c.o
+.PHONY : src/spin.c.o
+
+src/spin.i: src/spin.c.i
+.PHONY : src/spin.i
+
+# target to preprocess a source file
+src/spin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/spin.c.i
+.PHONY : src/spin.c.i
+
+src/spin.s: src/spin.c.s
+.PHONY : src/spin.s
+
+# target to generate assembly for a file
+src/spin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/spin.c.s
+.PHONY : src/spin.c.s
+
+src/sub.o: src/sub.c.o
+.PHONY : src/sub.o
+
+# target to build an object file
+src/sub.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/sub.c.o
+.PHONY : src/sub.c.o
+
+src/sub.i: src/sub.c.i
+.PHONY : src/sub.i
+
+# target to preprocess a source file
+src/sub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/sub.c.i
+.PHONY : src/sub.c.i
+
+src/sub.s: src/sub.c.s
+.PHONY : src/sub.s
+
+# target to generate assembly for a file
+src/sub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/sub.c.s
+.PHONY : src/sub.c.s
 
 # Help Target
 help:
@@ -331,9 +403,18 @@ help:
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
+	@echo "... src/pub.o"
+	@echo "... src/pub.i"
+	@echo "... src/pub.s"
 	@echo "... src/ros.o"
 	@echo "... src/ros.i"
 	@echo "... src/ros.s"
+	@echo "... src/spin.o"
+	@echo "... src/spin.i"
+	@echo "... src/spin.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
 .PHONY : help
 
 

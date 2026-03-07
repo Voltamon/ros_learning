@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.055s] [ 25%] [32mBuilding C object CMakeFiles/node_impl.dir/src/spin.c.o[0m
+[0.055s] [ 25%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[0.115s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Ksignal_handler[m[K’:
+[0.115s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:6:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.115s]     6 | static void signal_handler([01;35m[Kint sig[m[K) {
+[0.116s]       |                            [01;35m[K~~~~^~~[m[K
+[0.117s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[0.117s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_t[m[K’ {aka ‘[01m[Kstruct ros[m[K’} has no member named ‘[01m[Kcontex[m[K’; did you mean ‘[01m[Kcontext[m[K’?
+[0.117s]    13 |     if (ros.[01;31m[Kcontex[m[K  t.impl == NULL) {
+[0.117s]       |             [01;31m[K^~~~~~[m[K
+[0.117s]       |             [32m[Kcontext[m[K
+[0.117s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:13:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kt[m[K’
+[0.117s]    13 |     if [34m[K([m[Kros.contex[01;31m[K [m[K [32m[Kt[m[K.impl == NULL) {
+[0.118s]       |        [34m[K~[m[K          [01;31m[K^[m[K [32m[K~[m[K
+[0.118s]       |                   [32m[K)[m[K
+[0.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Kcreate_spinner[m[K’:
+[0.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:20:18:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Krcl_node_get_context[m[K’; did you mean ‘[01m[Krcl_node_get_options[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[0.118s]    20 |     ctx_t* ctx = [01;35m[Krcl_node_get_context[m[K(node);
+[0.118s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.118s]       |                  [32m[Krcl_node_get_options[m[K
+[0.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:20:18:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kctx_t *[m[K’ {aka ‘[01m[Kstruct rcl_context_s *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+[0.119s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:52:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdestroy_subscriber[m[K’; did you mean ‘[01m[Kdestroy_subscription[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[0.119s]    52 |         [01;35m[Kdestroy_subscriber[m[K(&sub, &node);
+[0.119s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.119s]       |         [32m[Kdestroy_subscription[m[K
+[0.120s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:42:22:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Krcl_get_zero_initialized_clock[m[K’; did you mean ‘[01m[Krcl_get_zero_initialized_client[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[0.120s]    42 |     *spinner.clock = [01;35m[Krcl_get_zero_initialized_clock[m[K();
+[0.120s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.120s]       |                      [32m[Krcl_get_zero_initialized_client[m[K
+[0.121s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:42:22:[m[K [01;31m[Kerror: [m[Kincompatible types when assigning to type ‘[01m[Krcl_clock_t[m[K’ {aka ‘[01m[Kstruct rcl_clock_s[m[K’} from type ‘[01m[Kint[m[K’
+[0.121s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:72:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_timer_call[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.121s]    72 |                 [01;35m[Krcl_timer_call(spinner.timer)[m[K;
+[0.121s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.121s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:50:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Krcl_timer_init[m[K’ is deprecated: Call rcl_timer_init2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[0.121s]    50 |     [01;35m[Kret[m[K = rcl_timer_init(spinner.timer, spinner.clock, ctx, RCL_MS_TO_NS(1000), NULL, alloc);
+[0.121s]       |     [01;35m[K^~~[m[K
+[0.121s] In file included from [01m[K/opt/ros/jazzy/include/rcl/rcl/wait.h:33[m[K,
+[0.122s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:80[m[K,
+[0.122s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:7[m[K,
+[0.122s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/spin.h:4[m[K,
+[0.122s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:1[m[K:
+[0.122s] [01m[K/opt/ros/jazzy/include/rcl/rcl/timer.h:188:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[0.122s]   188 | [01;36m[Krcl_timer_init[m[K(
+[0.123s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.123s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:58:56:[m[K [01;31m[Kerror: [m[Kincompatible type for argument 3 of ‘[01m[Krcl_guard_condition_init[m[K’
+[0.123s]    58 |     ret = rcl_guard_condition_init(spinner.guard, ctx, [01;31m[K&guard_opts[m[K);
+[0.123s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[0.123s]       |                                                        [01;31m[K|[m[K
+[0.124s]       |                                                        [01;31m[Kguard_opts_t * {aka struct rcl_guard_condition_options_s *}[m[K
+[0.124s] In file included from [01m[K/opt/ros/jazzy/include/rcl/rcl/node.h:30[m[K,
+[0.124s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:77[m[K:
+[0.124s] [01m[K/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:102:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Krcl_guard_condition_options_t[m[K’ {aka ‘[01m[Kconst struct rcl_guard_condition_options_s[m[K’} but argument is of type ‘[01m[Kguard_opts_t *[m[K’ {aka ‘[01m[Kstruct rcl_guard_condition_options_s *[m[K’}
+[0.124s]   102 |   [01;36m[Kconst rcl_guard_condition_options_t options[m[K);
+[0.124s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[0.125s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Ksignal_handler[m[K’:
+[0.125s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:9:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_trigger_guard_condition[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.125s]     9 |         [01;35m[Krcl_trigger_guard_condition(term_g)[m[K;
+[0.125s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.125s] gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+[0.125s] gmake[2]: *** Waiting for unfinished jobs....
+[0.125s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Kspin_node[m[K’:
+[0.125s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:77:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_clear[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.125s]    77 |     [01;35m[Krcl_wait_set_clear(&spinner->spinner)[m[K;
+[0.125s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.126s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:78:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_add_timer[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.126s]    78 |     [01;35m[Krcl_wait_set_add_timer(&spinner->spinner, spinner->timer, NULL)[m[K;
+[0.126s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.126s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:79:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_add_guard_condition[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.126s]    79 |     [01;35m[Krcl_wait_set_add_guard_condition(&spinner->spinner, spinner->guard, NULL)[m[K;
+[0.126s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.126s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:84:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_add_subscription[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.126s]    84 |             [01;35m[Krcl_wait_set_add_subscription(&spinner->spinner, subs[i], NULL)[m[K;
+[0.126s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.127s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:90:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_add_client[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.127s]    90 |             [01;35m[Krcl_wait_set_add_client(&spinner->spinner, clients[i], NULL)[m[K;
+[0.127s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.127s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:96:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait_set_add_service[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.127s]    96 |             [01;35m[Krcl_wait_set_add_service(&spinner->spinner, servers[i], NULL)[m[K;
+[0.127s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.127s] gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:160: CMakeFiles/node_impl.dir/src/spin.c.o] Error 1
+[0.127s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+[0.127s] gmake: *** [Makefile:146: all] Error 2
+[0.129s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8

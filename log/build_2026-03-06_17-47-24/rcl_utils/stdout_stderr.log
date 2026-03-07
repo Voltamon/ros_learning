@@ -1,0 +1,39 @@
+[ 20%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+In file included from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:5[m[K:
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/spin.h:20:21:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kclock_t[m[K’; have ‘[01m[Krcl_clock_t[m[K’ {aka ‘[01m[Kstruct rcl_clock_s[m[K’}
+   20 | typedef rcl_clock_t [01;31m[Kclock_t[m[K;
+      |                     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:126[m[K,
+                 from [01m[K/usr/include/stdlib.h:514[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcutils/rcutils/error_handling.h:33[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/init.h:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:76[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/ros.h:4[m[K,
+                 from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:7:19:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kclock_t[m[K’ with type ‘[01m[Kclock_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+    7 | typedef __clock_t [01;36m[Kclock_t[m[K;
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/spin.h:21:21:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Ktimer_t[m[K’; have ‘[01m[Krcl_timer_t[m[K’ {aka ‘[01m[Kstruct rcl_timer_s[m[K’}
+   21 | typedef rcl_timer_t [01;31m[Ktimer_t[m[K;
+      |                     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:130[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:7:19:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ktimer_t[m[K’ with type ‘[01m[Ktimer_t[m[K’ {aka ‘[01m[Kvoid *[m[K’}
+    7 | typedef __timer_t [01;36m[Ktimer_t[m[K;
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:7:1:[m[K [01;35m[Kwarning: [m[Kdata definition has no type or storage class
+    7 | [01;35m[Kpotato[m[K;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:7:1:[m[K [01;35m[Kwarning: [m[Ktype defaults to ‘[01m[Kint[m[K’ in declaration of ‘[01m[Kpotato[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-int-Wimplicit-int]8;;[m[K]
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.h: No such file or directory
+   10 | #include [01;31m[K<std_msgs/msg/string.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

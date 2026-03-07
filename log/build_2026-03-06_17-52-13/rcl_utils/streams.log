@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.051s] [ 20%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[0.097s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.h: No such file or directory
+[0.097s]     8 | #include [01;31m[K<std_msgs/msg/string.h>[m[K
+[0.097s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.097s] compilation terminated.
+[0.098s] gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+[0.098s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+[0.098s] gmake: *** [Makefile:146: all] Error 2
+[0.100s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8

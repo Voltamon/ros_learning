@@ -1,0 +1,38 @@
+[0.011s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/rcl_utils -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/rcl_utils
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.067s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.265s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.347s] -- Found rcl: 9.2.9 (/opt/ros/jazzy/share/rcl/cmake)
+[0.376s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.535s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.556s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.582s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.702s] -- Configuring done (0.7s)
+[0.710s] -- Generating done (0.0s)
+[0.713s] -- Build files have been written to: /home/voltamon48/ros_test/build/rcl_utils
+[0.720s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/rcl_utils -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/rcl_utils
+[0.720s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.759s] [ 60%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[0.759s] [ 60%] [32mBuilding C object CMakeFiles/node_impl.dir/src/node.c.o[0m
+[0.759s] [ 60%] [32mBuilding C object CMakeFiles/node_impl.dir/src/ros.c.o[0m
+[0.760s] [ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/error.c.o[0m
+[0.834s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.h: No such file or directory
+[0.834s]     8 | #include [01;31m[K<std_msgs/msg/string.h>[m[K
+[0.834s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.835s] compilation terminated.
+[0.843s] gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+[0.843s] gmake[2]: *** Waiting for unfinished jobs....
+[0.843s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+[0.843s] gmake: *** [Makefile:146: all] Error 2
+[0.845s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8

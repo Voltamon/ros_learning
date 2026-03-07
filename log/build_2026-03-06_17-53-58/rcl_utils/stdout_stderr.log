@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rcl: 9.2.9 (/opt/ros/jazzy/share/rcl/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/voltamon48/ros_test/build/rcl_utils
+[ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/error.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/node.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/ros.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.h: No such file or directory
+    8 | #include [01;31m[K<std_msgs/msg/string.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

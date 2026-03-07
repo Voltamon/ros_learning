@@ -182,4 +182,34 @@ CMakeFiles/node_impl.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /opt/ros/jazzy/include/rcl/rcl/error_handling.h \
- /home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/node.h
+ /home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/node.h \
+ /home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/pub.h \
+ /home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/sub.h \
+ /home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/spin.h \
+ /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__functions.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__type_support.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
