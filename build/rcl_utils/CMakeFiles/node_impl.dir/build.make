@@ -69,19 +69,19 @@ include CMakeFiles/node_impl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/node_impl.dir/flags.make
 
-CMakeFiles/node_impl.dir/src/main.c.o: CMakeFiles/node_impl.dir/flags.make
-CMakeFiles/node_impl.dir/src/main.c.o: /home/voltamon48/ros_test/src/rcl_utils/src/main.c
-CMakeFiles/node_impl.dir/src/main.c.o: CMakeFiles/node_impl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/node_impl.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/node_impl.dir/src/main.c.o -MF CMakeFiles/node_impl.dir/src/main.c.o.d -o CMakeFiles/node_impl.dir/src/main.c.o -c /home/voltamon48/ros_test/src/rcl_utils/src/main.c
+CMakeFiles/node_impl.dir/main.c.o: CMakeFiles/node_impl.dir/flags.make
+CMakeFiles/node_impl.dir/main.c.o: /home/voltamon48/ros_test/src/rcl_utils/main.c
+CMakeFiles/node_impl.dir/main.c.o: CMakeFiles/node_impl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/node_impl.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/node_impl.dir/main.c.o -MF CMakeFiles/node_impl.dir/main.c.o.d -o CMakeFiles/node_impl.dir/main.c.o -c /home/voltamon48/ros_test/src/rcl_utils/main.c
 
-CMakeFiles/node_impl.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/node_impl.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/voltamon48/ros_test/src/rcl_utils/src/main.c > CMakeFiles/node_impl.dir/src/main.c.i
+CMakeFiles/node_impl.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/node_impl.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/voltamon48/ros_test/src/rcl_utils/main.c > CMakeFiles/node_impl.dir/main.c.i
 
-CMakeFiles/node_impl.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/node_impl.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/voltamon48/ros_test/src/rcl_utils/src/main.c -o CMakeFiles/node_impl.dir/src/main.c.s
+CMakeFiles/node_impl.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/node_impl.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/voltamon48/ros_test/src/rcl_utils/main.c -o CMakeFiles/node_impl.dir/main.c.s
 
 CMakeFiles/node_impl.dir/src/ros.c.o: CMakeFiles/node_impl.dir/flags.make
 CMakeFiles/node_impl.dir/src/ros.c.o: /home/voltamon48/ros_test/src/rcl_utils/src/ros.c
@@ -167,26 +167,58 @@ CMakeFiles/node_impl.dir/src/spin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/node_impl.dir/src/spin.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/voltamon48/ros_test/src/rcl_utils/src/spin.c -o CMakeFiles/node_impl.dir/src/spin.c.s
 
+CMakeFiles/node_impl.dir/src/server.c.o: CMakeFiles/node_impl.dir/flags.make
+CMakeFiles/node_impl.dir/src/server.c.o: /home/voltamon48/ros_test/src/rcl_utils/src/server.c
+CMakeFiles/node_impl.dir/src/server.c.o: CMakeFiles/node_impl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/node_impl.dir/src/server.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/node_impl.dir/src/server.c.o -MF CMakeFiles/node_impl.dir/src/server.c.o.d -o CMakeFiles/node_impl.dir/src/server.c.o -c /home/voltamon48/ros_test/src/rcl_utils/src/server.c
+
+CMakeFiles/node_impl.dir/src/server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/node_impl.dir/src/server.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/voltamon48/ros_test/src/rcl_utils/src/server.c > CMakeFiles/node_impl.dir/src/server.c.i
+
+CMakeFiles/node_impl.dir/src/server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/node_impl.dir/src/server.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/voltamon48/ros_test/src/rcl_utils/src/server.c -o CMakeFiles/node_impl.dir/src/server.c.s
+
+CMakeFiles/node_impl.dir/src/client.c.o: CMakeFiles/node_impl.dir/flags.make
+CMakeFiles/node_impl.dir/src/client.c.o: /home/voltamon48/ros_test/src/rcl_utils/src/client.c
+CMakeFiles/node_impl.dir/src/client.c.o: CMakeFiles/node_impl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/node_impl.dir/src/client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/node_impl.dir/src/client.c.o -MF CMakeFiles/node_impl.dir/src/client.c.o.d -o CMakeFiles/node_impl.dir/src/client.c.o -c /home/voltamon48/ros_test/src/rcl_utils/src/client.c
+
+CMakeFiles/node_impl.dir/src/client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/node_impl.dir/src/client.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/voltamon48/ros_test/src/rcl_utils/src/client.c > CMakeFiles/node_impl.dir/src/client.c.i
+
+CMakeFiles/node_impl.dir/src/client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/node_impl.dir/src/client.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/voltamon48/ros_test/src/rcl_utils/src/client.c -o CMakeFiles/node_impl.dir/src/client.c.s
+
 # Object files for target node_impl
 node_impl_OBJECTS = \
-"CMakeFiles/node_impl.dir/src/main.c.o" \
+"CMakeFiles/node_impl.dir/main.c.o" \
 "CMakeFiles/node_impl.dir/src/ros.c.o" \
 "CMakeFiles/node_impl.dir/src/node.c.o" \
 "CMakeFiles/node_impl.dir/src/error.c.o" \
 "CMakeFiles/node_impl.dir/src/pub.c.o" \
 "CMakeFiles/node_impl.dir/src/sub.c.o" \
-"CMakeFiles/node_impl.dir/src/spin.c.o"
+"CMakeFiles/node_impl.dir/src/spin.c.o" \
+"CMakeFiles/node_impl.dir/src/server.c.o" \
+"CMakeFiles/node_impl.dir/src/client.c.o"
 
 # External object files for target node_impl
 node_impl_EXTERNAL_OBJECTS =
 
-node_impl: CMakeFiles/node_impl.dir/src/main.c.o
+node_impl: CMakeFiles/node_impl.dir/main.c.o
 node_impl: CMakeFiles/node_impl.dir/src/ros.c.o
 node_impl: CMakeFiles/node_impl.dir/src/node.c.o
 node_impl: CMakeFiles/node_impl.dir/src/error.c.o
 node_impl: CMakeFiles/node_impl.dir/src/pub.c.o
 node_impl: CMakeFiles/node_impl.dir/src/sub.c.o
 node_impl: CMakeFiles/node_impl.dir/src/spin.c.o
+node_impl: CMakeFiles/node_impl.dir/src/server.c.o
+node_impl: CMakeFiles/node_impl.dir/src/client.c.o
 node_impl: CMakeFiles/node_impl.dir/build.make
 node_impl: /opt/ros/jazzy/lib/librcl.so
 node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -195,6 +227,12 @@ node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_cpp.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_generator_py.so
 node_impl: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 node_impl: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 node_impl: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -214,15 +252,15 @@ node_impl: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport
 node_impl: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so
 node_impl: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so
 node_impl: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_c.so
+node_impl: /opt/ros/jazzy/lib/libstd_srvs__rosidl_generator_c.so
 node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
 node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
 node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
 node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
 node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
-node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
-node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
-node_impl: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 node_impl: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -235,12 +273,14 @@ node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspe
 node_impl: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 node_impl: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+node_impl: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 node_impl: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 node_impl: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 node_impl: /opt/ros/jazzy/lib/librcutils.so
 node_impl: CMakeFiles/node_impl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable node_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/voltamon48/ros_test/build/rcl_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable node_impl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/node_impl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

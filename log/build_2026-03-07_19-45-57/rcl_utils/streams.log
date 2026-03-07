@@ -1,0 +1,87 @@
+[0.009s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/rcl_utils -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/rcl_utils
+[0.052s] -- The C compiler identification is GNU 13.3.0
+[0.099s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.512s] -- Found rcl: 9.2.9 (/opt/ros/jazzy/share/rcl/cmake)
+[0.544s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.696s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.713s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.756s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.771s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.870s] -- Configuring done (0.9s)
+[0.878s] -- Generating done (0.0s)
+[0.881s] -- Build files have been written to: /home/voltamon48/ros_test/build/rcl_utils
+[0.888s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/voltamon48/ros_test/src/rcl_utils -DCMAKE_INSTALL_PREFIX=/home/voltamon48/ros_test/install/rcl_utils
+[0.889s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.938s] [ 10%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[0.938s] [ 20%] [32mBuilding C object CMakeFiles/node_impl.dir/src/node.c.o[0m
+[0.938s] [ 30%] [32mBuilding C object CMakeFiles/node_impl.dir/src/ros.c.o[0m
+[0.938s] [ 40%] [32mBuilding C object CMakeFiles/node_impl.dir/src/pub.c.o[0m
+[0.941s] [ 60%] [32mBuilding C object CMakeFiles/node_impl.dir/src/spin.c.o[0m
+[0.942s] [ 60%] [32mBuilding C object CMakeFiles/node_impl.dir/src/sub.c.o[0m
+[0.945s] [ 70%] [32mBuilding C object CMakeFiles/node_impl.dir/src/error.c.o[0m
+[0.946s] [ 80%] [32mBuilding C object CMakeFiles/node_impl.dir/src/server.c.o[0m
+[1.098s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.098s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:90:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_timer_call[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[1.099s]    90 |             [01;35m[Krcl_timer_call(spinner.timer)[m[K;
+[1.099s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.108s] [ 90%] [32mBuilding C object CMakeFiles/node_impl.dir/src/client.c.o[0m
+[1.116s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Ksignal_handler[m[K’:
+[1.117s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:13:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn[m[K’ with a value, in function returning void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.117s]    13 |             return [01;35m[K1[m[K;
+[1.117s]       |                    [01;35m[K^[m[K
+[1.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:6:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.118s]     6 | static void [01;36m[Ksignal_handler[m[K(int sig) {
+[1.118s]       |             [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:[m[K In function ‘[01m[Kcreate_spinner[m[K’:
+[1.118s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:54:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Krcl_timer_init[m[K’ is deprecated: Call rcl_timer_init2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.119s]    54 |     [01;35m[Kret[m[K = rcl_timer_init(spinner.timer, spinner.clock, ctx, RCL_MS_TO_NS(1000), NULL, alloc);
+[1.119s]       |     [01;35m[K^~~[m[K
+[1.119s] In file included from [01m[K/opt/ros/jazzy/include/rcl/rcl/wait.h:33[m[K,
+[1.119s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/rcl.h:80[m[K,
+[1.120s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/error.h:7[m[K,
+[1.120s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/include/rcl_utils/spin.h:4[m[K,
+[1.120s]                  from [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/spin.c:1[m[K:
+[1.120s] [01m[K/opt/ros/jazzy/include/rcl/rcl/timer.h:188:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.120s]   188 | [01;36m[Krcl_timer_init[m[K(
+[1.121s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.195s] [100%] [32m[1mLinking C executable node_impl[0m
+[1.271s] [100%] Built target node_impl
+[1.279s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[1.287s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/rcl_utils
+[1.293s] -- Install configuration: ""
+[1.293s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/lib/rcl_utils/node_impl
+[1.293s] -- Set non-toolchain portion of runtime path of "/home/voltamon48/ros_test/install/rcl_utils/lib/rcl_utils/node_impl" to ""
+[1.293s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/ament_index/resource_index/package_run_dependencies/rcl_utils
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/ament_index/resource_index/parent_prefix_path/rcl_utils
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/environment/ament_prefix_path.sh
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/environment/ament_prefix_path.dsv
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/environment/path.sh
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/environment/path.dsv
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/local_setup.bash
+[1.294s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/local_setup.sh
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/local_setup.zsh
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/local_setup.dsv
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.dsv
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/ament_index/resource_index/packages/rcl_utils
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/cmake/rcl_utilsConfig.cmake
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/cmake/rcl_utilsConfig-version.cmake
+[1.295s] -- Installing: /home/voltamon48/ros_test/install/rcl_utils/share/rcl_utils/package.xml
+[1.297s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/voltamon48/ros_test/build/rcl_utils

@@ -210,6 +210,54 @@ node_impl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/build
 .PHONY : node_impl/fast
 
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/main.c.s
+.PHONY : main.c.s
+
+src/client.o: src/client.c.o
+.PHONY : src/client.o
+
+# target to build an object file
+src/client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/client.c.o
+.PHONY : src/client.c.o
+
+src/client.i: src/client.c.i
+.PHONY : src/client.i
+
+# target to preprocess a source file
+src/client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/client.c.i
+.PHONY : src/client.c.i
+
+src/client.s: src/client.c.s
+.PHONY : src/client.s
+
+# target to generate assembly for a file
+src/client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/client.c.s
+.PHONY : src/client.c.s
+
 src/error.o: src/error.c.o
 .PHONY : src/error.o
 
@@ -233,30 +281,6 @@ src/error.s: src/error.c.s
 src/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/error.c.s
 .PHONY : src/error.c.s
-
-src/main.o: src/main.c.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/main.c.o
-.PHONY : src/main.c.o
-
-src/main.i: src/main.c.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/main.c.i
-.PHONY : src/main.c.i
-
-src/main.s: src/main.c.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/main.c.s
-.PHONY : src/main.c.s
 
 src/node.o: src/node.c.o
 .PHONY : src/node.o
@@ -330,6 +354,30 @@ src/ros.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/ros.c.s
 .PHONY : src/ros.c.s
 
+src/server.o: src/server.c.o
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/server.c.o
+.PHONY : src/server.c.o
+
+src/server.i: src/server.c.i
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/server.c.i
+.PHONY : src/server.c.i
+
+src/server.s: src/server.c.s
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_impl.dir/build.make CMakeFiles/node_impl.dir/src/server.c.s
+.PHONY : src/server.c.s
+
 src/spin.o: src/spin.c.o
 .PHONY : src/spin.o
 
@@ -394,12 +442,15 @@ help:
 	@echo "... rcl_utils_uninstall"
 	@echo "... uninstall"
 	@echo "... node_impl"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
@@ -409,6 +460,9 @@ help:
 	@echo "... src/ros.o"
 	@echo "... src/ros.i"
 	@echo "... src/ros.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 	@echo "... src/spin.o"
 	@echo "... src/spin.i"
 	@echo "... src/spin.s"

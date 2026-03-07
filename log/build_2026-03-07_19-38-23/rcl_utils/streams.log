@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/voltamon48/ros_test/build/rcl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
+[0.058s] [ 10%] [32mBuilding C object CMakeFiles/node_impl.dir/src/main.c.o[0m
+[0.107s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[0.107s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:123:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ undeclared (first use in this function)
+[0.108s]   123 |     std_srvs__srv__Trigger_Request__fini(&[01;31m[Kreq[m[K);
+[0.108s]       |                                           [01;31m[K^~~[m[K
+[0.108s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:123:43:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[0.108s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:124:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kros[m[K’?
+[0.108s]   124 |     std_srvs__srv__Trigger_Response__fini(&[01;31m[Kres[m[K);
+[0.108s]       |                                            [01;31m[K^~~[m[K
+[0.108s]       |                                            [32m[Kros[m[K
+[0.109s] [01m[K/home/voltamon48/ros_test/src/rcl_utils/src/main.c:85:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_timer_call[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[0.109s]    85 |             [01;35m[Krcl_timer_call(spinner.timer)[m[K;
+[0.109s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.110s] gmake[2]: *** [CMakeFiles/node_impl.dir/build.make:76: CMakeFiles/node_impl.dir/src/main.c.o] Error 1
+[0.110s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_impl.dir/all] Error 2
+[0.111s] gmake: *** [Makefile:146: all] Error 2
+[0.112s] Invoked command in '/home/voltamon48/ros_test/build/rcl_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/voltamon48/ros_test/build/rcl_utils -- -j8 -l8
